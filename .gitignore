@@ -1,0 +1,31 @@
+# Variáveis de ambiente e segredos (NUNCA enviar para o GitHub)
+.env
+.env.*
+!.env.example
+
+# Ambientes virtuais
+.venv/
+.venv_test/
+venv/
+
+# Cache e ficheiros compilados Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# IDE e sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs e temporários
+*.log
+*.tmp
+
+# Resultados de teste com o LLM simulado (nunca usar no relatório) e rascunhos mock
+results/mock/
+deliverables/*PREVIEW_MOCK*
+docs/guiao_video_PREVIEW_MOCK.md

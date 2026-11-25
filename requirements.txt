@@ -1,0 +1,11 @@
+# Intervalos compatíveis com as versões usadas nos testes (python-dotenv 1.2, pandas 3.0, numpy 2.5,
+# matplotlib 3.11, python-docx 1.2, python-pptx 1.0). Para reprodutibilidade exata, correr "pip freeze" na
+# máquina que executa as experiências com o modelo real e guardar o resultado.
+openai>=1.40,<3          # SDK do fornecedor do LLM (só é preciso com --backend openai)
+python-dotenv>=1.0,<2
+pandas>=3.0,<4           # pandas 3 requer Python >= 3.11
+numpy>=2.0,<3
+matplotlib>=3.8,<4
+python-docx>=1.1,<2
+python-pptx>=1.0,<2
+Pillow>=10

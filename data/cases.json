@@ -1,0 +1,1892 @@
+[
+ {
+  "id": "case_01",
+  "split": "test",
+  "notice_text": "AVISO DE ABERTURA N.º 01/2026 — Programa «Emprego Qualificado» (Portugal 2030) [TEXTO FICTÍCIO]\n\nArtigo 1.º — Objeto\n1. O presente aviso destina-se a apoiar projetos de investimento produtivo e de modernização de empresas, contribuindo para a competitividade e a criação de emprego.\n\nArtigo 2.º — Dotação e taxa de apoio\n1. A dotação indicativa é de 5 milhões de euros.\n2. A taxa de apoio é de 45% das despesas elegíveis, com um limite de 250 mil euros por projeto.\n\nArtigo 3.º — Condições de elegibilidade dos beneficiários\nPodem candidatar-se as entidades que cumpram, cumulativamente, os seguintes requisitos:\na) Apresentar um investimento total elegível igual ou superior a 50 mil euros;\nb) Não ser classificada como empresa em dificuldade, de acordo com o Regulamento (UE) n.º 651/2014;\nc) Ter como atividade principal (CAE Rev.3) uma das seguintes secções: C (indústrias transformadoras), F (construção), I (alojamento e restauração), M (atividades de consultoria, científicas e técnicas);\nd) Ter sede ou estabelecimento permanente numa das seguintes regiões NUTS II: Alentejo, Algarve, Centro;\n\nArtigo 4.º — Prazos e documentos\n1. As candidaturas decorrem de 5 de março a 11 de abril de 2026.\n2. A candidatura é instruída com a documentação comprovativa dos requisitos acima referidos.",
+  "company": {
+   "nome": "Zênite S.A.",
+   "regiao": "Algarve",
+   "trabalhadores": null,
+   "vn": null,
+   "balanco": null,
+   "contrib": null,
+   "cae": null,
+   "dificuldade": null,
+   "anos": null,
+   "invest": 15,
+   "postos": null,
+   "iniciado": null,
+   "export": null
+  },
+  "company_text": "Empresa: Zênite S.A.\nRegião da sede (NUTS II): Algarve\nVolume de negócios anual (M€): não indicado\nSituação perante a AT e a Segurança Social: não indicado\nCAE principal (secção): não indicado\nInvestimento previsto (k€): 15\nDespesas do projeto já iniciadas antes da candidatura: não indicado",
+  "criteria": [
+   {
+    "label": "a)",
+    "type": "invest",
+    "mandatory": true,
+    "truth": "not_met"
+   },
+   {
+    "label": "b)",
+    "type": "dificuldade",
+    "mandatory": true,
+    "truth": "needs_evidence"
+   },
+   {
+    "label": "c)",
+    "type": "cae",
+    "mandatory": true,
+    "truth": "needs_evidence"
+   },
+   {
+    "label": "d)",
+    "type": "sede",
+    "mandatory": true,
+    "truth": "met"
+   }
+  ],
+  "truth_overall": "NOT_ELIGIBLE",
+  "target_overall": "NOT_ELIGIBLE"
+ },
+ {
+  "id": "case_02",
+  "split": "test",
+  "notice_text": "AVISO DE ABERTURA N.º 02/2026 — Programa «Digitalizar PME» (Portugal 2030) [TEXTO FICTÍCIO]\n\nArtigo 1.º — Objeto\n1. O presente aviso destina-se a apoiar projetos de investimento produtivo e de modernização de empresas, contribuindo para a competitividade e a criação de emprego.\n\nArtigo 2.º — Dotação e taxa de apoio\n1. A dotação indicativa é de 5 milhões de euros.\n2. A taxa de apoio é de 40% das despesas elegíveis, com um limite de 400 mil euros por projeto.\n\nArtigo 3.º — Condições de elegibilidade dos beneficiários\nPodem candidatar-se as entidades que cumpram, cumulativamente, os seguintes requisitos:\na) Não se encontrar em situação de empresa em dificuldade, nos termos do Regulamento (UE) n.º 651/2014;\nb) Comprometer-se a criar, no mínimo, 2 postos de trabalho líquido(s) até ao fim do projeto;\nc) Apresentar um investimento total elegível igual ou superior a 100 mil euros;\nd) Estar sediada numa das regiões abrangidas pelo aviso, a saber: Açores, Centro, Lisboa;\ne) Enquadrar-se na definição de PME, com menos de 250 trabalhadores e volume de negócios anual até 50 milhões de euros ou balanço total anual até 43 milhões de euros;\n\nArtigo 4.º — Critérios valorizados (não eliminatórios)\nSem prejuízo do disposto no artigo anterior, a falta destes requisitos não determina a exclusão da candidatura, sendo apenas valorizadas as empresas que cumpram:\nf) Empresas com exportações iguais ou superiores a 20% do volume de negócios;\n\nArtigo 5.º — Prazos e documentos\n1. As candidaturas decorrem de 6 de março a 16 de abril de 2026.\n2. A candidatura é instruída com a documentação comprovativa dos requisitos acima referidos.",
+  "company": {
+   "nome": "Urze Unipessoal Lda",
+   "regiao": "Centro",
+   "trabalhadores": 47,
+   "vn": 16.2,
+   "balanco": 14.8,
+   "contrib": null,
+   "cae": null,
+   "dificuldade": "não",
+   "anos": null,
+   "invest": 100,
+   "postos": 3,
+   "iniciado": null,
+   "export": 8
+  },
+  "company_text": "Empresa: Urze Unipessoal Lda\nRegião da sede (NUTS II): Centro\nN.º de trabalhadores: 47\nVolume de negócios anual (M€): 16.2\nBalanço total anual (M€): 14.8\nCAE principal (secção): não indicado\nEmpresa em dificuldade (Reg. UE 651/2014): não\nInvestimento previsto (k€): 100\nNovos postos de trabalho a criar: 3\nDespesas do projeto já iniciadas antes da candidatura: não indicado\nPeso das exportações no volume de negócios (%): 8",
+  "criteria": [
+   {
+    "label": "a)",
+    "type": "dificuldade",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "b)",
+    "type": "postos",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "c)",
+    "type": "invest",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "d)",
+    "type": "sede",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "e)",
+    "type": "pme",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "f)",
+    "type": "export",
+    "mandatory": false,
+    "truth": "not_met"
+   }
+  ],
+  "truth_overall": "ELIGIBLE",
+  "target_overall": "ELIGIBLE"
+ },
+ {
+  "id": "case_03",
+  "split": "test",
+  "notice_text": "AVISO DE ABERTURA N.º 03/2026 — Programa «Transição Verde PME» (Portugal 2030) [TEXTO FICTÍCIO]\n\nArtigo 1.º — Objeto\n1. O presente aviso destina-se a apoiar projetos de investimento produtivo e de modernização de empresas, contribuindo para a competitividade e a criação de emprego.\n\nArtigo 2.º — Dotação e taxa de apoio\n1. A dotação indicativa é de 5 milhões de euros.\n2. A taxa de apoio é de 45% das despesas elegíveis, com um limite de 250 mil euros por projeto.\n\nArtigo 3.º — Condições de elegibilidade dos beneficiários\nPodem candidatar-se as entidades que cumpram, cumulativamente, os seguintes requisitos:\na) O CAE principal da empresa deve estar abrangido por uma das secções: C (indústrias transformadoras), M (atividades de consultoria, científicas e técnicas);\nb) Exercer atividade há um mínimo de 1 ano à data de submissão da candidatura;\nc) Não se encontrar em situação de empresa em dificuldade, nos termos do Regulamento (UE) n.º 651/2014;\nd) Não ter iniciado despesas do projeto antes da data da candidatura;\ne) Criar pelo menos 3 postos de trabalho adicional(is) em resultado do projeto;\n\nArtigo 4.º — Critérios valorizados (não eliminatórios)\nSem prejuízo do disposto no artigo anterior, a falta destes requisitos não determina a exclusão da candidatura, sendo apenas valorizadas as empresas que cumpram:\nf) Empresas com exportações iguais ou superiores a 10% do volume de negócios;\n\nArtigo 5.º — Prazos e documentos\n1. As candidaturas decorrem de 3 de março a 24 de abril de 2026.\n2. A candidatura é instruída com a documentação comprovativa dos requisitos acima referidos.",
+  "company": {
+   "nome": "Fénix Unipessoal Lda",
+   "regiao": null,
+   "trabalhadores": null,
+   "vn": null,
+   "balanco": null,
+   "contrib": null,
+   "cae": "C",
+   "dificuldade": "não",
+   "anos": 5,
+   "invest": null,
+   "postos": 10,
+   "iniciado": "não",
+   "export": null
+  },
+  "company_text": "Empresa: Fénix Unipessoal Lda\nRegião da sede (NUTS II): não indicado\nCAE principal (secção): C (indústrias transformadoras)\nEmpresa em dificuldade (Reg. UE 651/2014): não\nAnos de atividade: 5\nInvestimento previsto (k€): não indicado\nNovos postos de trabalho a criar: 10\nDespesas do projeto já iniciadas antes da candidatura: não\nPeso das exportações no volume de negócios (%): não indicado",
+  "criteria": [
+   {
+    "label": "a)",
+    "type": "cae",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "b)",
+    "type": "antiguidade",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "c)",
+    "type": "dificuldade",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "d)",
+    "type": "iniciado",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "e)",
+    "type": "postos",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "f)",
+    "type": "export",
+    "mandatory": false,
+    "truth": "needs_evidence"
+   }
+  ],
+  "truth_overall": "ELIGIBLE",
+  "target_overall": "ELIGIBLE"
+ },
+ {
+  "id": "case_04",
+  "split": "test",
+  "notice_text": "AVISO DE ABERTURA N.º 04/2026 — Programa «Emprego Qualificado» (Portugal 2030) [TEXTO FICTÍCIO]\n\nArtigo 1.º — Objeto\n1. O presente aviso destina-se a apoiar projetos de investimento produtivo e de modernização de empresas, contribuindo para a competitividade e a criação de emprego.\n\nArtigo 2.º — Dotação e taxa de apoio\n1. A dotação indicativa é de 12 milhões de euros.\n2. A taxa de apoio é de 50% das despesas elegíveis, com um limite de 400 mil euros por projeto.\n\nArtigo 3.º — Condições de elegibilidade dos beneficiários\nPodem candidatar-se as entidades que cumpram, cumulativamente, os seguintes requisitos:\na) Não ser classificada como empresa em dificuldade, de acordo com o Regulamento (UE) n.º 651/2014;\nb) Possuir a situação tributária e contributiva regularizada perante a AT e a Segurança Social;\nc) Apresentar um investimento total elegível igual ou superior a 75 mil euros;\nd) Ter sede ou estabelecimento permanente numa das seguintes regiões NUTS II: Alentejo, Açores;\ne) Exercer atividade há um mínimo de 2 anos à data de submissão da candidatura;\n\nArtigo 4.º — Prazos e documentos\n1. As candidaturas decorrem de 8 de março a 13 de abril de 2026.\n2. A candidatura é instruída com a documentação comprovativa dos requisitos acima referidos.",
+  "company": {
+   "nome": "Rio Lda",
+   "regiao": "Norte",
+   "trabalhadores": null,
+   "vn": null,
+   "balanco": null,
+   "contrib": "dívida não regularizada",
+   "cae": null,
+   "dificuldade": "não",
+   "anos": null,
+   "invest": 115,
+   "postos": null,
+   "iniciado": null,
+   "export": null
+  },
+  "company_text": "Empresa: Rio Lda\nRegião da sede (NUTS II): Norte\nN.º de trabalhadores: não indicado\nVolume de negócios anual (M€): não indicado\nBalanço total anual (M€): não indicado\nSituação perante a AT e a Segurança Social: dívida não regularizada\nCAE principal (secção): não indicado\nEmpresa em dificuldade (Reg. UE 651/2014): não\nAnos de atividade: não indicado\nInvestimento previsto (k€): 115\nNovos postos de trabalho a criar: não indicado\nPeso das exportações no volume de negócios (%): não indicado",
+  "criteria": [
+   {
+    "label": "a)",
+    "type": "dificuldade",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "b)",
+    "type": "contrib",
+    "mandatory": true,
+    "truth": "not_met"
+   },
+   {
+    "label": "c)",
+    "type": "invest",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "d)",
+    "type": "sede",
+    "mandatory": true,
+    "truth": "not_met"
+   },
+   {
+    "label": "e)",
+    "type": "antiguidade",
+    "mandatory": true,
+    "truth": "needs_evidence"
+   }
+  ],
+  "truth_overall": "NOT_ELIGIBLE",
+  "target_overall": "NOT_ELIGIBLE"
+ },
+ {
+  "id": "case_05",
+  "split": "dev",
+  "notice_text": "AVISO DE ABERTURA N.º 05/2026 — Programa «Transição Verde PME» (Portugal 2030) [TEXTO FICTÍCIO]\n\nArtigo 1.º — Objeto\n1. O presente aviso destina-se a apoiar projetos de investimento produtivo e de modernização de empresas, contribuindo para a competitividade e a criação de emprego.\n\nArtigo 2.º — Dotação e taxa de apoio\n1. A dotação indicativa é de 5 milhões de euros.\n2. A taxa de apoio é de 40% das despesas elegíveis, com um limite de 150 mil euros por projeto.\n\nArtigo 3.º — Condições de elegibilidade dos beneficiários\nPodem candidatar-se as entidades que cumpram, cumulativamente, os seguintes requisitos:\na) Ter, à data da candidatura, pelo menos 1 ano de atividade;\nb) Não se encontrar em situação de empresa em dificuldade, nos termos do Regulamento (UE) n.º 651/2014;\nc) Ter sede ou estabelecimento permanente numa das seguintes regiões NUTS II: Alentejo, Algarve, Açores, Centro;\nd) Criar pelo menos 1 posto de trabalho adicional(is) em resultado do projeto;\n\nArtigo 4.º — Critérios valorizados (não eliminatórios)\nSem prejuízo do disposto no artigo anterior, a falta destes requisitos não determina a exclusão da candidatura, sendo apenas valorizadas as empresas que cumpram:\ne) Empresas com exportações iguais ou superiores a 10% do volume de negócios;\n\nArtigo 5.º — Prazos e documentos\n1. As candidaturas decorrem de 4 de março a 27 de abril de 2026.\n2. A candidatura é instruída com a documentação comprovativa dos requisitos acima referidos.",
+  "company": {
+   "nome": "Nova S.A.",
+   "regiao": "Centro",
+   "trabalhadores": null,
+   "vn": null,
+   "balanco": null,
+   "contrib": null,
+   "cae": null,
+   "dificuldade": "não",
+   "anos": 24,
+   "invest": null,
+   "postos": 2,
+   "iniciado": null,
+   "export": null
+  },
+  "company_text": "Empresa: Nova S.A.\nRegião da sede (NUTS II): Centro\nN.º de trabalhadores: não indicado\nVolume de negócios anual (M€): não indicado\nBalanço total anual (M€): não indicado\nSituação perante a AT e a Segurança Social: não indicado\nEmpresa em dificuldade (Reg. UE 651/2014): não\nAnos de atividade: 24\nInvestimento previsto (k€): não indicado\nNovos postos de trabalho a criar: 2\nPeso das exportações no volume de negócios (%): não indicado",
+  "criteria": [
+   {
+    "label": "a)",
+    "type": "antiguidade",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "b)",
+    "type": "dificuldade",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "c)",
+    "type": "sede",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "d)",
+    "type": "postos",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "e)",
+    "type": "export",
+    "mandatory": false,
+    "truth": "needs_evidence"
+   }
+  ],
+  "truth_overall": "ELIGIBLE",
+  "target_overall": "ELIGIBLE"
+ },
+ {
+  "id": "case_06",
+  "split": "test",
+  "notice_text": "AVISO DE ABERTURA N.º 06/2026 — Programa «Transição Verde PME» (Portugal 2030) [TEXTO FICTÍCIO]\n\nArtigo 1.º — Objeto\n1. O presente aviso destina-se a apoiar projetos de investimento produtivo e de modernização de empresas, contribuindo para a competitividade e a criação de emprego.\n\nArtigo 2.º — Dotação e taxa de apoio\n1. A dotação indicativa é de 5 milhões de euros.\n2. A taxa de apoio é de 30% das despesas elegíveis, com um limite de 400 mil euros por projeto.\n\nArtigo 3.º — Condições de elegibilidade dos beneficiários\nPodem candidatar-se as entidades que cumpram, cumulativamente, os seguintes requisitos:\na) O CAE principal da empresa deve estar abrangido por uma das secções: C (indústrias transformadoras), M (atividades de consultoria, científicas e técnicas);\nb) Não ter iniciado despesas do projeto antes da data da candidatura;\nc) Ter sede ou estabelecimento permanente numa das seguintes regiões NUTS II: Alentejo, Madeira;\nd) Comprometer-se a criar, no mínimo, 2 postos de trabalho líquido(s) até ao fim do projeto;\n\nArtigo 4.º — Critérios valorizados (não eliminatórios)\nSem prejuízo do disposto no artigo anterior, a falta destes requisitos não determina a exclusão da candidatura, sendo apenas valorizadas as empresas que cumpram:\ne) Empresas com exportações iguais ou superiores a 20% do volume de negócios;\n\nArtigo 5.º — Prazos e documentos\n1. As candidaturas decorrem de 8 de março a 26 de abril de 2026.\n2. A candidatura é instruída com a documentação comprovativa dos requisitos acima referidos.",
+  "company": {
+   "nome": "Vale Unipessoal Lda",
+   "regiao": "Alentejo",
+   "trabalhadores": null,
+   "vn": null,
+   "balanco": null,
+   "contrib": null,
+   "cae": "M",
+   "dificuldade": null,
+   "anos": null,
+   "invest": null,
+   "postos": 9,
+   "iniciado": "não",
+   "export": 17
+  },
+  "company_text": "Empresa: Vale Unipessoal Lda\nRegião da sede (NUTS II): Alentejo\nVolume de negócios anual (M€): não indicado\nBalanço total anual (M€): não indicado\nSituação perante a AT e a Segurança Social: não indicado\nCAE principal (secção): M (atividades de consultoria, científicas e técnicas)\nAnos de atividade: não indicado\nInvestimento previsto (k€): não indicado\nNovos postos de trabalho a criar: 9\nDespesas do projeto já iniciadas antes da candidatura: não\nPeso das exportações no volume de negócios (%): 17",
+  "criteria": [
+   {
+    "label": "a)",
+    "type": "cae",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "b)",
+    "type": "iniciado",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "c)",
+    "type": "sede",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "d)",
+    "type": "postos",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "e)",
+    "type": "export",
+    "mandatory": false,
+    "truth": "not_met"
+   }
+  ],
+  "truth_overall": "ELIGIBLE",
+  "target_overall": "ELIGIBLE"
+ },
+ {
+  "id": "case_07",
+  "split": "test",
+  "notice_text": "AVISO DE ABERTURA N.º 07/2026 — Programa «Digitalizar PME» (Portugal 2030) [TEXTO FICTÍCIO]\n\nArtigo 1.º — Objeto\n1. O presente aviso destina-se a apoiar projetos de investimento produtivo e de modernização de empresas, contribuindo para a competitividade e a criação de emprego.\n\nArtigo 2.º — Dotação e taxa de apoio\n1. A dotação indicativa é de 8 milhões de euros.\n2. A taxa de apoio é de 45% das despesas elegíveis, com um limite de 150 mil euros por projeto.\n\nArtigo 3.º — Condições de elegibilidade dos beneficiários\nPodem candidatar-se as entidades que cumpram, cumulativamente, os seguintes requisitos:\na) Não ter iniciado despesas do projeto antes da data da candidatura;\nb) Ter como atividade principal (CAE Rev.3) uma das seguintes secções: C (indústrias transformadoras), G (comércio por grosso e a retalho), H (transportes e armazenagem), I (alojamento e restauração);\nc) Exercer atividade há um mínimo de 1 ano à data de submissão da candidatura;\nd) Ter sede ou estabelecimento permanente numa das seguintes regiões NUTS II: Alentejo, Centro, Lisboa, Madeira;\ne) Não se encontrar em situação de empresa em dificuldade, nos termos do Regulamento (UE) n.º 651/2014;\nf) Ser micro, pequena ou média empresa, isto é, empregar menos de 250 pessoas e ter um volume de negócios anual não superior a 50 milhões de euros ou um balanço total anual não superior a 43 milhões de euros;\ng) O projeto deve ter um investimento elegível mínimo de 150 mil euros;\n\nArtigo 4.º — Critérios valorizados (não eliminatórios)\nSem prejuízo do disposto no artigo anterior, a falta destes requisitos não determina a exclusão da candidatura, sendo apenas valorizadas as empresas que cumpram:\nh) Empresas com exportações iguais ou superiores a 10% do volume de negócios;\n\nArtigo 5.º — Prazos e documentos\n1. As candidaturas decorrem de 5 de março a 26 de abril de 2026.\n2. A candidatura é instruída com a documentação comprovativa dos requisitos acima referidos.",
+  "company": {
+   "nome": "Jade Lda",
+   "regiao": "Centro",
+   "trabalhadores": 22,
+   "vn": 16.3,
+   "balanco": 30.5,
+   "contrib": null,
+   "cae": "C",
+   "dificuldade": "não",
+   "anos": null,
+   "invest": 726,
+   "postos": null,
+   "iniciado": "não",
+   "export": 57
+  },
+  "company_text": "Empresa: Jade Lda\nRegião da sede (NUTS II): Centro\nN.º de trabalhadores: 22\nVolume de negócios anual (M€): 16.3\nBalanço total anual (M€): 30.5\nSituação perante a AT e a Segurança Social: não indicado\nCAE principal (secção): C (indústrias transformadoras)\nEmpresa em dificuldade (Reg. UE 651/2014): não\nInvestimento previsto (k€): 726\nDespesas do projeto já iniciadas antes da candidatura: não\nPeso das exportações no volume de negócios (%): 57",
+  "criteria": [
+   {
+    "label": "a)",
+    "type": "iniciado",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "b)",
+    "type": "cae",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "c)",
+    "type": "antiguidade",
+    "mandatory": true,
+    "truth": "needs_evidence"
+   },
+   {
+    "label": "d)",
+    "type": "sede",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "e)",
+    "type": "dificuldade",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "f)",
+    "type": "pme",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "g)",
+    "type": "invest",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "h)",
+    "type": "export",
+    "mandatory": false,
+    "truth": "met"
+   }
+  ],
+  "truth_overall": "NEEDS_EVIDENCE",
+  "target_overall": "NEEDS_EVIDENCE"
+ },
+ {
+  "id": "case_08",
+  "split": "test",
+  "notice_text": "AVISO DE ABERTURA N.º 08/2026 — Programa «Emprego Qualificado» (Portugal 2030) [TEXTO FICTÍCIO]\n\nArtigo 1.º — Objeto\n1. O presente aviso destina-se a apoiar projetos de investimento produtivo e de modernização de empresas, contribuindo para a competitividade e a criação de emprego.\n\nArtigo 2.º — Dotação e taxa de apoio\n1. A dotação indicativa é de 8 milhões de euros.\n2. A taxa de apoio é de 45% das despesas elegíveis, com um limite de 150 mil euros por projeto.\n\nArtigo 3.º — Condições de elegibilidade dos beneficiários\nPodem candidatar-se as entidades que cumpram, cumulativamente, os seguintes requisitos:\na) Ser micro, pequena ou média empresa, isto é, empregar menos de 250 pessoas e ter um volume de negócios anual não superior a 50 milhões de euros ou um balanço total anual não superior a 43 milhões de euros;\nb) Apresentar um investimento total elegível igual ou superior a 100 mil euros;\nc) Ter sede ou estabelecimento permanente numa das seguintes regiões NUTS II: Lisboa, Madeira;\nd) Possuir a situação tributária e contributiva regularizada perante a AT e a Segurança Social;\ne) Comprometer-se a criar, no mínimo, 1 posto de trabalho líquido(s) até ao fim do projeto;\nf) Não se encontrar em situação de empresa em dificuldade, nos termos do Regulamento (UE) n.º 651/2014;\ng) Exercer atividade há um mínimo de 2 anos à data de submissão da candidatura;\n\nArtigo 4.º — Critérios valorizados (não eliminatórios)\nSem prejuízo do disposto no artigo anterior, a falta destes requisitos não determina a exclusão da candidatura, sendo apenas valorizadas as empresas que cumpram:\nh) Empresas com exportações iguais ou superiores a 10% do volume de negócios;\n\nArtigo 5.º — Prazos e documentos\n1. As candidaturas decorrem de 2 de março a 22 de abril de 2026.\n2. A candidatura é instruída com a documentação comprovativa dos requisitos acima referidos.",
+  "company": {
+   "nome": "Vale Lda",
+   "regiao": "Lisboa",
+   "trabalhadores": 32,
+   "vn": 2.5,
+   "balanco": 53.0,
+   "contrib": "regularizada",
+   "cae": null,
+   "dificuldade": "não",
+   "anos": 2,
+   "invest": 100,
+   "postos": 9,
+   "iniciado": null,
+   "export": 3
+  },
+  "company_text": "Empresa: Vale Lda\nRegião da sede (NUTS II): Lisboa\nN.º de trabalhadores: 32\nVolume de negócios anual (M€): 2.5\nBalanço total anual (M€): 53.0\nSituação perante a AT e a Segurança Social: regularizada\nEmpresa em dificuldade (Reg. UE 651/2014): não\nAnos de atividade: 2\nInvestimento previsto (k€): 100\nNovos postos de trabalho a criar: 9\nPeso das exportações no volume de negócios (%): 3",
+  "criteria": [
+   {
+    "label": "a)",
+    "type": "pme",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "b)",
+    "type": "invest",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "c)",
+    "type": "sede",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "d)",
+    "type": "contrib",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "e)",
+    "type": "postos",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "f)",
+    "type": "dificuldade",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "g)",
+    "type": "antiguidade",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "h)",
+    "type": "export",
+    "mandatory": false,
+    "truth": "not_met"
+   }
+  ],
+  "truth_overall": "ELIGIBLE",
+  "target_overall": "ELIGIBLE"
+ },
+ {
+  "id": "case_09",
+  "split": "test",
+  "notice_text": "AVISO DE ABERTURA N.º 09/2026 — Programa «Competir+ PME» (Portugal 2030) [TEXTO FICTÍCIO]\n\nArtigo 1.º — Objeto\n1. O presente aviso destina-se a apoiar projetos de investimento produtivo e de modernização de empresas, contribuindo para a competitividade e a criação de emprego.\n\nArtigo 2.º — Dotação e taxa de apoio\n1. A dotação indicativa é de 20 milhões de euros.\n2. A taxa de apoio é de 30% das despesas elegíveis, com um limite de 400 mil euros por projeto.\n\nArtigo 3.º — Condições de elegibilidade dos beneficiários\nPodem candidatar-se as entidades que cumpram, cumulativamente, os seguintes requisitos:\na) Estar sediada numa das regiões abrangidas pelo aviso, a saber: Alentejo, Algarve, Açores;\nb) Não ser classificada como empresa em dificuldade, de acordo com o Regulamento (UE) n.º 651/2014;\nc) Enquadrar-se na definição de PME, com menos de 250 trabalhadores e volume de negócios anual até 50 milhões de euros ou balanço total anual até 43 milhões de euros;\nd) Ter a situação contributiva regularizada perante a Autoridade Tributária e a Segurança Social;\ne) Exercer atividade há um mínimo de 2 anos à data de submissão da candidatura;\nf) Apresentar um investimento total elegível igual ou superior a 50 mil euros;\ng) Garantir que o projeto não foi iniciado antes da submissão da candidatura;\n\nArtigo 4.º — Prazos e documentos\n1. As candidaturas decorrem de 9 de março a 16 de abril de 2026.\n2. A candidatura é instruída com a documentação comprovativa dos requisitos acima referidos.",
+  "company": {
+   "nome": "Íris Lda",
+   "regiao": "Açores",
+   "trabalhadores": 141,
+   "vn": 10.1,
+   "balanco": 1.9,
+   "contrib": "regularizada",
+   "cae": null,
+   "dificuldade": "não",
+   "anos": 2,
+   "invest": 121,
+   "postos": null,
+   "iniciado": "não",
+   "export": null
+  },
+  "company_text": "Empresa: Íris Lda\nRegião da sede (NUTS II): Açores\nN.º de trabalhadores: 141\nVolume de negócios anual (M€): 10.1\nBalanço total anual (M€): 1.9\nSituação perante a AT e a Segurança Social: regularizada\nCAE principal (secção): não indicado\nEmpresa em dificuldade (Reg. UE 651/2014): não\nAnos de atividade: 2\nInvestimento previsto (k€): 121\nNovos postos de trabalho a criar: não indicado\nDespesas do projeto já iniciadas antes da candidatura: não",
+  "criteria": [
+   {
+    "label": "a)",
+    "type": "sede",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "b)",
+    "type": "dificuldade",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "c)",
+    "type": "pme",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "d)",
+    "type": "contrib",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "e)",
+    "type": "antiguidade",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "f)",
+    "type": "invest",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "g)",
+    "type": "iniciado",
+    "mandatory": true,
+    "truth": "met"
+   }
+  ],
+  "truth_overall": "ELIGIBLE",
+  "target_overall": "ELIGIBLE"
+ },
+ {
+  "id": "case_10",
+  "split": "dev",
+  "notice_text": "AVISO DE ABERTURA N.º 10/2026 — Programa «Alentejo Produtivo» (Portugal 2030) [TEXTO FICTÍCIO]\n\nArtigo 1.º — Objeto\n1. O presente aviso destina-se a apoiar projetos de investimento produtivo e de modernização de empresas, contribuindo para a competitividade e a criação de emprego.\n\nArtigo 2.º — Dotação e taxa de apoio\n1. A dotação indicativa é de 20 milhões de euros.\n2. A taxa de apoio é de 30% das despesas elegíveis, com um limite de 250 mil euros por projeto.\n\nArtigo 3.º — Condições de elegibilidade dos beneficiários\nPodem candidatar-se as entidades que cumpram, cumulativamente, os seguintes requisitos:\na) Não ser classificada como empresa em dificuldade, de acordo com o Regulamento (UE) n.º 651/2014;\nb) Ter a situação contributiva regularizada perante a Autoridade Tributária e a Segurança Social;\nc) Ter, à data da candidatura, pelo menos 3 anos de atividade;\nd) Ter como atividade principal (CAE Rev.3) uma das seguintes secções: H (transportes e armazenagem), J (informação e comunicação), M (atividades de consultoria, científicas e técnicas);\ne) Comprometer-se a criar, no mínimo, 2 postos de trabalho líquido(s) até ao fim do projeto;\nf) Ter sede ou estabelecimento permanente numa das seguintes regiões NUTS II: Alentejo, Algarve, Norte;\n\nArtigo 4.º — Critérios valorizados (não eliminatórios)\nSem prejuízo do disposto no artigo anterior, a falta destes requisitos não determina a exclusão da candidatura, sendo apenas valorizadas as empresas que cumpram:\ng) Empresas com exportações iguais ou superiores a 20% do volume de negócios;\n\nArtigo 5.º — Prazos e documentos\n1. As candidaturas decorrem de 7 de março a 28 de abril de 2026.\n2. A candidatura é instruída com a documentação comprovativa dos requisitos acima referidos.",
+  "company": {
+   "nome": "Fénix Unipessoal Lda",
+   "regiao": "Algarve",
+   "trabalhadores": null,
+   "vn": null,
+   "balanco": null,
+   "contrib": "regularizada",
+   "cae": "J",
+   "dificuldade": "sim",
+   "anos": 3,
+   "invest": null,
+   "postos": 5,
+   "iniciado": null,
+   "export": null
+  },
+  "company_text": "Empresa: Fénix Unipessoal Lda\nRegião da sede (NUTS II): Algarve\nN.º de trabalhadores: não indicado\nBalanço total anual (M€): não indicado\nSituação perante a AT e a Segurança Social: regularizada\nCAE principal (secção): J (informação e comunicação)\nEmpresa em dificuldade (Reg. UE 651/2014): sim\nAnos de atividade: 3\nInvestimento previsto (k€): não indicado\nNovos postos de trabalho a criar: 5\nPeso das exportações no volume de negócios (%): não indicado",
+  "criteria": [
+   {
+    "label": "a)",
+    "type": "dificuldade",
+    "mandatory": true,
+    "truth": "not_met"
+   },
+   {
+    "label": "b)",
+    "type": "contrib",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "c)",
+    "type": "antiguidade",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "d)",
+    "type": "cae",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "e)",
+    "type": "postos",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "f)",
+    "type": "sede",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "g)",
+    "type": "export",
+    "mandatory": false,
+    "truth": "needs_evidence"
+   }
+  ],
+  "truth_overall": "NOT_ELIGIBLE",
+  "target_overall": "NOT_ELIGIBLE"
+ },
+ {
+  "id": "case_11",
+  "split": "test",
+  "notice_text": "AVISO DE ABERTURA N.º 11/2026 — Programa «Transição Verde PME» (Portugal 2030) [TEXTO FICTÍCIO]\n\nArtigo 1.º — Objeto\n1. O presente aviso destina-se a apoiar projetos de investimento produtivo e de modernização de empresas, contribuindo para a competitividade e a criação de emprego.\n\nArtigo 2.º — Dotação e taxa de apoio\n1. A dotação indicativa é de 12 milhões de euros.\n2. A taxa de apoio é de 30% das despesas elegíveis, com um limite de 150 mil euros por projeto.\n\nArtigo 3.º — Condições de elegibilidade dos beneficiários\nPodem candidatar-se as entidades que cumpram, cumulativamente, os seguintes requisitos:\na) Apresentar um investimento total elegível igual ou superior a 150 mil euros;\nb) Estar sediada numa das regiões abrangidas pelo aviso, a saber: Alentejo, Algarve, Açores, Madeira;\nc) Ter, à data da candidatura, pelo menos 3 anos de atividade;\nd) O CAE principal da empresa deve estar abrangido por uma das secções: H (transportes e armazenagem), J (informação e comunicação), M (atividades de consultoria, científicas e técnicas);\n\nArtigo 4.º — Critérios valorizados (não eliminatórios)\nSem prejuízo do disposto no artigo anterior, a falta destes requisitos não determina a exclusão da candidatura, sendo apenas valorizadas as empresas que cumpram:\ne) Empresas com exportações iguais ou superiores a 20% do volume de negócios;\n\nArtigo 5.º — Prazos e documentos\n1. As candidaturas decorrem de 3 de março a 17 de abril de 2026.\n2. A candidatura é instruída com a documentação comprovativa dos requisitos acima referidos.",
+  "company": {
+   "nome": "Quinta S.A.",
+   "regiao": "Algarve",
+   "trabalhadores": null,
+   "vn": null,
+   "balanco": null,
+   "contrib": null,
+   "cae": "M",
+   "dificuldade": null,
+   "anos": 17,
+   "invest": null,
+   "postos": null,
+   "iniciado": null,
+   "export": 55
+  },
+  "company_text": "Empresa: Quinta S.A.\nRegião da sede (NUTS II): Algarve\nN.º de trabalhadores: não indicado\nVolume de negócios anual (M€): não indicado\nBalanço total anual (M€): não indicado\nSituação perante a AT e a Segurança Social: não indicado\nCAE principal (secção): M (atividades de consultoria, científicas e técnicas)\nEmpresa em dificuldade (Reg. UE 651/2014): não indicado\nAnos de atividade: 17\nInvestimento previsto (k€): não indicado\nNovos postos de trabalho a criar: não indicado\nPeso das exportações no volume de negócios (%): 55",
+  "criteria": [
+   {
+    "label": "a)",
+    "type": "invest",
+    "mandatory": true,
+    "truth": "needs_evidence"
+   },
+   {
+    "label": "b)",
+    "type": "sede",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "c)",
+    "type": "antiguidade",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "d)",
+    "type": "cae",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "e)",
+    "type": "export",
+    "mandatory": false,
+    "truth": "met"
+   }
+  ],
+  "truth_overall": "NEEDS_EVIDENCE",
+  "target_overall": "NEEDS_EVIDENCE"
+ },
+ {
+  "id": "case_12",
+  "split": "test",
+  "notice_text": "AVISO DE ABERTURA N.º 12/2026 — Programa «Centro Empresas 2030» (Portugal 2030) [TEXTO FICTÍCIO]\n\nArtigo 1.º — Objeto\n1. O presente aviso destina-se a apoiar projetos de investimento produtivo e de modernização de empresas, contribuindo para a competitividade e a criação de emprego.\n\nArtigo 2.º — Dotação e taxa de apoio\n1. A dotação indicativa é de 5 milhões de euros.\n2. A taxa de apoio é de 45% das despesas elegíveis, com um limite de 250 mil euros por projeto.\n\nArtigo 3.º — Condições de elegibilidade dos beneficiários\nPodem candidatar-se as entidades que cumpram, cumulativamente, os seguintes requisitos:\na) Comprometer-se a criar, no mínimo, 3 postos de trabalho líquido(s) até ao fim do projeto;\nb) O projeto deve ter um investimento elegível mínimo de 50 mil euros;\nc) Ser micro, pequena ou média empresa, isto é, empregar menos de 250 pessoas e ter um volume de negócios anual não superior a 50 milhões de euros ou um balanço total anual não superior a 43 milhões de euros;\nd) Possuir a situação tributária e contributiva regularizada perante a AT e a Segurança Social;\n\nArtigo 4.º — Critérios valorizados (não eliminatórios)\nSem prejuízo do disposto no artigo anterior, a falta destes requisitos não determina a exclusão da candidatura, sendo apenas valorizadas as empresas que cumpram:\ne) Empresas com exportações iguais ou superiores a 10% do volume de negócios;\n\nArtigo 5.º — Prazos e documentos\n1. As candidaturas decorrem de 6 de março a 16 de abril de 2026.\n2. A candidatura é instruída com a documentação comprovativa dos requisitos acima referidos.",
+  "company": {
+   "nome": "Rio Lda",
+   "regiao": null,
+   "trabalhadores": 189,
+   "vn": 5.2,
+   "balanco": 28.1,
+   "contrib": "dívida não regularizada",
+   "cae": null,
+   "dificuldade": null,
+   "anos": null,
+   "invest": 50,
+   "postos": 2,
+   "iniciado": null,
+   "export": null
+  },
+  "company_text": "Empresa: Rio Lda\nRegião da sede (NUTS II): não indicado\nN.º de trabalhadores: 189\nVolume de negócios anual (M€): 5.2\nBalanço total anual (M€): 28.1\nSituação perante a AT e a Segurança Social: dívida não regularizada\nCAE principal (secção): não indicado\nAnos de atividade: não indicado\nInvestimento previsto (k€): 50\nNovos postos de trabalho a criar: 2\nPeso das exportações no volume de negócios (%): não indicado",
+  "criteria": [
+   {
+    "label": "a)",
+    "type": "postos",
+    "mandatory": true,
+    "truth": "not_met"
+   },
+   {
+    "label": "b)",
+    "type": "invest",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "c)",
+    "type": "pme",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "d)",
+    "type": "contrib",
+    "mandatory": true,
+    "truth": "not_met"
+   },
+   {
+    "label": "e)",
+    "type": "export",
+    "mandatory": false,
+    "truth": "needs_evidence"
+   }
+  ],
+  "truth_overall": "NOT_ELIGIBLE",
+  "target_overall": "NOT_ELIGIBLE"
+ },
+ {
+  "id": "case_13",
+  "split": "test",
+  "notice_text": "AVISO DE ABERTURA N.º 13/2026 — Programa «Digitalizar PME» (Portugal 2030) [TEXTO FICTÍCIO]\n\nArtigo 1.º — Objeto\n1. O presente aviso destina-se a apoiar projetos de investimento produtivo e de modernização de empresas, contribuindo para a competitividade e a criação de emprego.\n\nArtigo 2.º — Dotação e taxa de apoio\n1. A dotação indicativa é de 5 milhões de euros.\n2. A taxa de apoio é de 30% das despesas elegíveis, com um limite de 250 mil euros por projeto.\n\nArtigo 3.º — Condições de elegibilidade dos beneficiários\nPodem candidatar-se as entidades que cumpram, cumulativamente, os seguintes requisitos:\na) Não ser classificada como empresa em dificuldade, de acordo com o Regulamento (UE) n.º 651/2014;\nb) Estar sediada numa das regiões abrangidas pelo aviso, a saber: Algarve, Açores, Norte;\nc) Criar pelo menos 2 postos de trabalho adicional(is) em resultado do projeto;\nd) Ser micro, pequena ou média empresa, isto é, empregar menos de 250 pessoas e ter um volume de negócios anual não superior a 50 milhões de euros ou um balanço total anual não superior a 43 milhões de euros;\ne) Ter a situação contributiva regularizada perante a Autoridade Tributária e a Segurança Social;\nf) Não ter iniciado despesas do projeto antes da data da candidatura;\ng) Ter como atividade principal (CAE Rev.3) uma das seguintes secções: G (comércio por grosso e a retalho), I (alojamento e restauração), M (atividades de consultoria, científicas e técnicas);\n\nArtigo 4.º — Prazos e documentos\n1. As candidaturas decorrem de 9 de março a 23 de abril de 2026.\n2. A candidatura é instruída com a documentação comprovativa dos requisitos acima referidos.",
+  "company": {
+   "nome": "Zênite Lda",
+   "regiao": "Algarve",
+   "trabalhadores": 249,
+   "vn": 50.0,
+   "balanco": 14.5,
+   "contrib": "regularizada",
+   "cae": null,
+   "dificuldade": "não",
+   "anos": null,
+   "invest": null,
+   "postos": 6,
+   "iniciado": "não",
+   "export": null
+  },
+  "company_text": "Empresa: Zênite Lda\nRegião da sede (NUTS II): Algarve\nN.º de trabalhadores: 249\nVolume de negócios anual (M€): 50.0\nBalanço total anual (M€): 14.5\nSituação perante a AT e a Segurança Social: regularizada\nEmpresa em dificuldade (Reg. UE 651/2014): não\nAnos de atividade: não indicado\nNovos postos de trabalho a criar: 6\nDespesas do projeto já iniciadas antes da candidatura: não\nPeso das exportações no volume de negócios (%): não indicado",
+  "criteria": [
+   {
+    "label": "a)",
+    "type": "dificuldade",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "b)",
+    "type": "sede",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "c)",
+    "type": "postos",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "d)",
+    "type": "pme",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "e)",
+    "type": "contrib",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "f)",
+    "type": "iniciado",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "g)",
+    "type": "cae",
+    "mandatory": true,
+    "truth": "needs_evidence"
+   }
+  ],
+  "truth_overall": "NEEDS_EVIDENCE",
+  "target_overall": "NEEDS_EVIDENCE"
+ },
+ {
+  "id": "case_14",
+  "split": "test",
+  "notice_text": "AVISO DE ABERTURA N.º 14/2026 — Programa «Indústria 4.0 Regional» (Portugal 2030) [TEXTO FICTÍCIO]\n\nArtigo 1.º — Objeto\n1. O presente aviso destina-se a apoiar projetos de investimento produtivo e de modernização de empresas, contribuindo para a competitividade e a criação de emprego.\n\nArtigo 2.º — Dotação e taxa de apoio\n1. A dotação indicativa é de 20 milhões de euros.\n2. A taxa de apoio é de 50% das despesas elegíveis, com um limite de 150 mil euros por projeto.\n\nArtigo 3.º — Condições de elegibilidade dos beneficiários\nPodem candidatar-se as entidades que cumpram, cumulativamente, os seguintes requisitos:\na) Ter sede ou estabelecimento permanente numa das seguintes regiões NUTS II: Madeira, Norte;\nb) Ter, à data da candidatura, pelo menos 2 anos de atividade;\nc) Não se encontrar em situação de empresa em dificuldade, nos termos do Regulamento (UE) n.º 651/2014;\nd) Ter como atividade principal (CAE Rev.3) uma das seguintes secções: C (indústrias transformadoras), H (transportes e armazenagem), J (informação e comunicação);\ne) Garantir que o projeto não foi iniciado antes da submissão da candidatura;\nf) Possuir a situação tributária e contributiva regularizada perante a AT e a Segurança Social;\ng) Apresentar um investimento total elegível igual ou superior a 150 mil euros;\n\nArtigo 4.º — Prazos e documentos\n1. As candidaturas decorrem de 2 de março a 19 de abril de 2026.\n2. A candidatura é instruída com a documentação comprovativa dos requisitos acima referidos.",
+  "company": {
+   "nome": "Fénix S.A.",
+   "regiao": "Norte",
+   "trabalhadores": null,
+   "vn": null,
+   "balanco": null,
+   "contrib": "regularizada",
+   "cae": "I",
+   "dificuldade": "sim",
+   "anos": 23,
+   "invest": 150,
+   "postos": null,
+   "iniciado": "não",
+   "export": null
+  },
+  "company_text": "Empresa: Fénix S.A.\nRegião da sede (NUTS II): Norte\nN.º de trabalhadores: não indicado\nBalanço total anual (M€): não indicado\nSituação perante a AT e a Segurança Social: regularizada\nCAE principal (secção): I (alojamento e restauração)\nEmpresa em dificuldade (Reg. UE 651/2014): sim\nAnos de atividade: 23\nInvestimento previsto (k€): 150\nNovos postos de trabalho a criar: não indicado\nDespesas do projeto já iniciadas antes da candidatura: não\nPeso das exportações no volume de negócios (%): não indicado",
+  "criteria": [
+   {
+    "label": "a)",
+    "type": "sede",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "b)",
+    "type": "antiguidade",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "c)",
+    "type": "dificuldade",
+    "mandatory": true,
+    "truth": "not_met"
+   },
+   {
+    "label": "d)",
+    "type": "cae",
+    "mandatory": true,
+    "truth": "not_met"
+   },
+   {
+    "label": "e)",
+    "type": "iniciado",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "f)",
+    "type": "contrib",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "g)",
+    "type": "invest",
+    "mandatory": true,
+    "truth": "met"
+   }
+  ],
+  "truth_overall": "NOT_ELIGIBLE",
+  "target_overall": "NOT_ELIGIBLE"
+ },
+ {
+  "id": "case_15",
+  "split": "dev",
+  "notice_text": "AVISO DE ABERTURA N.º 15/2026 — Programa «Indústria 4.0 Regional» (Portugal 2030) [TEXTO FICTÍCIO]\n\nArtigo 1.º — Objeto\n1. O presente aviso destina-se a apoiar projetos de investimento produtivo e de modernização de empresas, contribuindo para a competitividade e a criação de emprego.\n\nArtigo 2.º — Dotação e taxa de apoio\n1. A dotação indicativa é de 5 milhões de euros.\n2. A taxa de apoio é de 30% das despesas elegíveis, com um limite de 250 mil euros por projeto.\n\nArtigo 3.º — Condições de elegibilidade dos beneficiários\nPodem candidatar-se as entidades que cumpram, cumulativamente, os seguintes requisitos:\na) Possuir a situação tributária e contributiva regularizada perante a AT e a Segurança Social;\nb) Estar sediada numa das regiões abrangidas pelo aviso, a saber: Algarve, Açores, Norte;\nc) O CAE principal da empresa deve estar abrangido por uma das secções: C (indústrias transformadoras), F (construção), G (comércio por grosso e a retalho), I (alojamento e restauração);\nd) Garantir que o projeto não foi iniciado antes da submissão da candidatura;\ne) Comprometer-se a criar, no mínimo, 3 postos de trabalho líquido(s) até ao fim do projeto;\nf) Ter, à data da candidatura, pelo menos 2 anos de atividade;\ng) O projeto deve ter um investimento elegível mínimo de 75 mil euros;\n\nArtigo 4.º — Critérios valorizados (não eliminatórios)\nSem prejuízo do disposto no artigo anterior, a falta destes requisitos não determina a exclusão da candidatura, sendo apenas valorizadas as empresas que cumpram:\nh) Empresas com exportações iguais ou superiores a 20% do volume de negócios;\n\nArtigo 5.º — Prazos e documentos\n1. As candidaturas decorrem de 8 de março a 12 de abril de 2026.\n2. A candidatura é instruída com a documentação comprovativa dos requisitos acima referidos.",
+  "company": {
+   "nome": "Rio S.A.",
+   "regiao": "Algarve",
+   "trabalhadores": null,
+   "vn": null,
+   "balanco": null,
+   "contrib": "regularizada",
+   "cae": null,
+   "dificuldade": null,
+   "anos": null,
+   "invest": 70,
+   "postos": 11,
+   "iniciado": null,
+   "export": 26
+  },
+  "company_text": "Empresa: Rio S.A.\nRegião da sede (NUTS II): Algarve\nN.º de trabalhadores: não indicado\nBalanço total anual (M€): não indicado\nSituação perante a AT e a Segurança Social: regularizada\nAnos de atividade: não indicado\nInvestimento previsto (k€): 70\nNovos postos de trabalho a criar: 11\nDespesas do projeto já iniciadas antes da candidatura: não indicado\nPeso das exportações no volume de negócios (%): 26",
+  "criteria": [
+   {
+    "label": "a)",
+    "type": "contrib",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "b)",
+    "type": "sede",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "c)",
+    "type": "cae",
+    "mandatory": true,
+    "truth": "needs_evidence"
+   },
+   {
+    "label": "d)",
+    "type": "iniciado",
+    "mandatory": true,
+    "truth": "needs_evidence"
+   },
+   {
+    "label": "e)",
+    "type": "postos",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "f)",
+    "type": "antiguidade",
+    "mandatory": true,
+    "truth": "needs_evidence"
+   },
+   {
+    "label": "g)",
+    "type": "invest",
+    "mandatory": true,
+    "truth": "not_met"
+   },
+   {
+    "label": "h)",
+    "type": "export",
+    "mandatory": false,
+    "truth": "met"
+   }
+  ],
+  "truth_overall": "NOT_ELIGIBLE",
+  "target_overall": "NOT_ELIGIBLE"
+ },
+ {
+  "id": "case_16",
+  "split": "test",
+  "notice_text": "AVISO DE ABERTURA N.º 16/2026 — Programa «Digitalizar PME» (Portugal 2030) [TEXTO FICTÍCIO]\n\nArtigo 1.º — Objeto\n1. O presente aviso destina-se a apoiar projetos de investimento produtivo e de modernização de empresas, contribuindo para a competitividade e a criação de emprego.\n\nArtigo 2.º — Dotação e taxa de apoio\n1. A dotação indicativa é de 20 milhões de euros.\n2. A taxa de apoio é de 30% das despesas elegíveis, com um limite de 250 mil euros por projeto.\n\nArtigo 3.º — Condições de elegibilidade dos beneficiários\nPodem candidatar-se as entidades que cumpram, cumulativamente, os seguintes requisitos:\na) Ter sede ou estabelecimento permanente numa das seguintes regiões NUTS II: Açores, Centro, Norte;\nb) Possuir a situação tributária e contributiva regularizada perante a AT e a Segurança Social;\nc) Não ter iniciado despesas do projeto antes da data da candidatura;\nd) Ter como atividade principal (CAE Rev.3) uma das seguintes secções: H (transportes e armazenagem), M (atividades de consultoria, científicas e técnicas);\ne) Comprometer-se a criar, no mínimo, 2 postos de trabalho líquido(s) até ao fim do projeto;\nf) Apresentar um investimento total elegível igual ou superior a 100 mil euros;\ng) Exercer atividade há um mínimo de 3 anos à data de submissão da candidatura;\n\nArtigo 4.º — Prazos e documentos\n1. As candidaturas decorrem de 5 de março a 22 de abril de 2026.\n2. A candidatura é instruída com a documentação comprovativa dos requisitos acima referidos.",
+  "company": {
+   "nome": "Urze Unipessoal Lda",
+   "regiao": "Algarve",
+   "trabalhadores": null,
+   "vn": null,
+   "balanco": null,
+   "contrib": null,
+   "cae": "M",
+   "dificuldade": null,
+   "anos": null,
+   "invest": 100,
+   "postos": null,
+   "iniciado": "não",
+   "export": null
+  },
+  "company_text": "Empresa: Urze Unipessoal Lda\nRegião da sede (NUTS II): Algarve\nVolume de negócios anual (M€): não indicado\nBalanço total anual (M€): não indicado\nSituação perante a AT e a Segurança Social: não indicado\nCAE principal (secção): M (atividades de consultoria, científicas e técnicas)\nEmpresa em dificuldade (Reg. UE 651/2014): não indicado\nAnos de atividade: não indicado\nInvestimento previsto (k€): 100\nNovos postos de trabalho a criar: não indicado\nDespesas do projeto já iniciadas antes da candidatura: não\nPeso das exportações no volume de negócios (%): não indicado",
+  "criteria": [
+   {
+    "label": "a)",
+    "type": "sede",
+    "mandatory": true,
+    "truth": "not_met"
+   },
+   {
+    "label": "b)",
+    "type": "contrib",
+    "mandatory": true,
+    "truth": "needs_evidence"
+   },
+   {
+    "label": "c)",
+    "type": "iniciado",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "d)",
+    "type": "cae",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "e)",
+    "type": "postos",
+    "mandatory": true,
+    "truth": "needs_evidence"
+   },
+   {
+    "label": "f)",
+    "type": "invest",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "g)",
+    "type": "antiguidade",
+    "mandatory": true,
+    "truth": "needs_evidence"
+   }
+  ],
+  "truth_overall": "NOT_ELIGIBLE",
+  "target_overall": "NOT_ELIGIBLE"
+ },
+ {
+  "id": "case_17",
+  "split": "test",
+  "notice_text": "AVISO DE ABERTURA N.º 17/2026 — Programa «Digitalizar PME» (Portugal 2030) [TEXTO FICTÍCIO]\n\nArtigo 1.º — Objeto\n1. O presente aviso destina-se a apoiar projetos de investimento produtivo e de modernização de empresas, contribuindo para a competitividade e a criação de emprego.\n\nArtigo 2.º — Dotação e taxa de apoio\n1. A dotação indicativa é de 12 milhões de euros.\n2. A taxa de apoio é de 30% das despesas elegíveis, com um limite de 250 mil euros por projeto.\n\nArtigo 3.º — Condições de elegibilidade dos beneficiários\nPodem candidatar-se as entidades que cumpram, cumulativamente, os seguintes requisitos:\na) Não se encontrar em situação de empresa em dificuldade, nos termos do Regulamento (UE) n.º 651/2014;\nb) O projeto deve ter um investimento elegível mínimo de 150 mil euros;\nc) Ser micro, pequena ou média empresa, isto é, empregar menos de 250 pessoas e ter um volume de negócios anual não superior a 50 milhões de euros ou um balanço total anual não superior a 43 milhões de euros;\nd) Estar sediada numa das regiões abrangidas pelo aviso, a saber: Alentejo, Açores, Lisboa;\n\nArtigo 4.º — Critérios valorizados (não eliminatórios)\nSem prejuízo do disposto no artigo anterior, a falta destes requisitos não determina a exclusão da candidatura, sendo apenas valorizadas as empresas que cumpram:\ne) Empresas com exportações iguais ou superiores a 10% do volume de negócios;\n\nArtigo 5.º — Prazos e documentos\n1. As candidaturas decorrem de 9 de março a 10 de abril de 2026.\n2. A candidatura é instruída com a documentação comprovativa dos requisitos acima referidos.",
+  "company": {
+   "nome": "Nova Unipessoal Lda",
+   "regiao": "Lisboa",
+   "trabalhadores": 50,
+   "vn": 29.9,
+   "balanco": 26.3,
+   "contrib": null,
+   "cae": null,
+   "dificuldade": "não",
+   "anos": null,
+   "invest": 631,
+   "postos": null,
+   "iniciado": null,
+   "export": 52
+  },
+  "company_text": "Empresa: Nova Unipessoal Lda\nRegião da sede (NUTS II): Lisboa\nN.º de trabalhadores: 50\nVolume de negócios anual (M€): 29.9\nBalanço total anual (M€): 26.3\nCAE principal (secção): não indicado\nEmpresa em dificuldade (Reg. UE 651/2014): não\nAnos de atividade: não indicado\nInvestimento previsto (k€): 631\nNovos postos de trabalho a criar: não indicado\nDespesas do projeto já iniciadas antes da candidatura: não indicado\nPeso das exportações no volume de negócios (%): 52",
+  "criteria": [
+   {
+    "label": "a)",
+    "type": "dificuldade",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "b)",
+    "type": "invest",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "c)",
+    "type": "pme",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "d)",
+    "type": "sede",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "e)",
+    "type": "export",
+    "mandatory": false,
+    "truth": "met"
+   }
+  ],
+  "truth_overall": "ELIGIBLE",
+  "target_overall": "ELIGIBLE"
+ },
+ {
+  "id": "case_18",
+  "split": "test",
+  "notice_text": "AVISO DE ABERTURA N.º 18/2026 — Programa «Digitalizar PME» (Portugal 2030) [TEXTO FICTÍCIO]\n\nArtigo 1.º — Objeto\n1. O presente aviso destina-se a apoiar projetos de investimento produtivo e de modernização de empresas, contribuindo para a competitividade e a criação de emprego.\n\nArtigo 2.º — Dotação e taxa de apoio\n1. A dotação indicativa é de 20 milhões de euros.\n2. A taxa de apoio é de 40% das despesas elegíveis, com um limite de 250 mil euros por projeto.\n\nArtigo 3.º — Condições de elegibilidade dos beneficiários\nPodem candidatar-se as entidades que cumpram, cumulativamente, os seguintes requisitos:\na) Ter, à data da candidatura, pelo menos 2 anos de atividade;\nb) Enquadrar-se na definição de PME, com menos de 250 trabalhadores e volume de negócios anual até 50 milhões de euros ou balanço total anual até 43 milhões de euros;\nc) Possuir a situação tributária e contributiva regularizada perante a AT e a Segurança Social;\nd) O projeto deve ter um investimento elegível mínimo de 150 mil euros;\ne) Não ser classificada como empresa em dificuldade, de acordo com o Regulamento (UE) n.º 651/2014;\nf) Ter como atividade principal (CAE Rev.3) uma das seguintes secções: C (indústrias transformadoras), M (atividades de consultoria, científicas e técnicas);\ng) Estar sediada numa das regiões abrangidas pelo aviso, a saber: Alentejo, Norte;\n\nArtigo 4.º — Critérios valorizados (não eliminatórios)\nSem prejuízo do disposto no artigo anterior, a falta destes requisitos não determina a exclusão da candidatura, sendo apenas valorizadas as empresas que cumpram:\nh) Empresas com exportações iguais ou superiores a 20% do volume de negócios;\n\nArtigo 5.º — Prazos e documentos\n1. As candidaturas decorrem de 9 de março a 25 de abril de 2026.\n2. A candidatura é instruída com a documentação comprovativa dos requisitos acima referidos.",
+  "company": {
+   "nome": "Horizonte S.A.",
+   "regiao": "Alentejo",
+   "trabalhadores": 65,
+   "vn": 21.4,
+   "balanco": 18.8,
+   "contrib": "regularizada",
+   "cae": "C",
+   "dificuldade": "não",
+   "anos": 10,
+   "invest": null,
+   "postos": null,
+   "iniciado": null,
+   "export": 15
+  },
+  "company_text": "Empresa: Horizonte S.A.\nRegião da sede (NUTS II): Alentejo\nN.º de trabalhadores: 65\nVolume de negócios anual (M€): 21.4\nBalanço total anual (M€): 18.8\nSituação perante a AT e a Segurança Social: regularizada\nCAE principal (secção): C (indústrias transformadoras)\nEmpresa em dificuldade (Reg. UE 651/2014): não\nAnos de atividade: 10\nInvestimento previsto (k€): não indicado\nNovos postos de trabalho a criar: não indicado\nDespesas do projeto já iniciadas antes da candidatura: não indicado\nPeso das exportações no volume de negócios (%): 15",
+  "criteria": [
+   {
+    "label": "a)",
+    "type": "antiguidade",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "b)",
+    "type": "pme",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "c)",
+    "type": "contrib",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "d)",
+    "type": "invest",
+    "mandatory": true,
+    "truth": "needs_evidence"
+   },
+   {
+    "label": "e)",
+    "type": "dificuldade",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "f)",
+    "type": "cae",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "g)",
+    "type": "sede",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "h)",
+    "type": "export",
+    "mandatory": false,
+    "truth": "not_met"
+   }
+  ],
+  "truth_overall": "NEEDS_EVIDENCE",
+  "target_overall": "NEEDS_EVIDENCE"
+ },
+ {
+  "id": "case_19",
+  "split": "test",
+  "notice_text": "AVISO DE ABERTURA N.º 19/2026 — Programa «Norte Inovação Digital» (Portugal 2030) [TEXTO FICTÍCIO]\n\nArtigo 1.º — Objeto\n1. O presente aviso destina-se a apoiar projetos de investimento produtivo e de modernização de empresas, contribuindo para a competitividade e a criação de emprego.\n\nArtigo 2.º — Dotação e taxa de apoio\n1. A dotação indicativa é de 8 milhões de euros.\n2. A taxa de apoio é de 45% das despesas elegíveis, com um limite de 150 mil euros por projeto.\n\nArtigo 3.º — Condições de elegibilidade dos beneficiários\nPodem candidatar-se as entidades que cumpram, cumulativamente, os seguintes requisitos:\na) Ter, à data da candidatura, pelo menos 3 anos de atividade;\nb) Estar sediada numa das regiões abrangidas pelo aviso, a saber: Alentejo, Algarve;\nc) Garantir que o projeto não foi iniciado antes da submissão da candidatura;\nd) Não ser classificada como empresa em dificuldade, de acordo com o Regulamento (UE) n.º 651/2014;\ne) Criar pelo menos 1 posto de trabalho adicional(is) em resultado do projeto;\nf) Ter como atividade principal (CAE Rev.3) uma das seguintes secções: C (indústrias transformadoras), F (construção), G (comércio por grosso e a retalho), H (transportes e armazenagem);\n\nArtigo 4.º — Prazos e documentos\n1. As candidaturas decorrem de 2 de março a 23 de abril de 2026.\n2. A candidatura é instruída com a documentação comprovativa dos requisitos acima referidos.",
+  "company": {
+   "nome": "Urze Lda",
+   "regiao": "Alentejo",
+   "trabalhadores": null,
+   "vn": null,
+   "balanco": null,
+   "contrib": null,
+   "cae": "G",
+   "dificuldade": "não",
+   "anos": 2,
+   "invest": null,
+   "postos": 0,
+   "iniciado": "não",
+   "export": null
+  },
+  "company_text": "Empresa: Urze Lda\nRegião da sede (NUTS II): Alentejo\nSituação perante a AT e a Segurança Social: não indicado\nCAE principal (secção): G (comércio por grosso e a retalho)\nEmpresa em dificuldade (Reg. UE 651/2014): não\nAnos de atividade: 2\nInvestimento previsto (k€): não indicado\nNovos postos de trabalho a criar: 0\nDespesas do projeto já iniciadas antes da candidatura: não\nPeso das exportações no volume de negócios (%): não indicado",
+  "criteria": [
+   {
+    "label": "a)",
+    "type": "antiguidade",
+    "mandatory": true,
+    "truth": "not_met"
+   },
+   {
+    "label": "b)",
+    "type": "sede",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "c)",
+    "type": "iniciado",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "d)",
+    "type": "dificuldade",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "e)",
+    "type": "postos",
+    "mandatory": true,
+    "truth": "not_met"
+   },
+   {
+    "label": "f)",
+    "type": "cae",
+    "mandatory": true,
+    "truth": "met"
+   }
+  ],
+  "truth_overall": "NOT_ELIGIBLE",
+  "target_overall": "NOT_ELIGIBLE"
+ },
+ {
+  "id": "case_20",
+  "split": "dev",
+  "notice_text": "AVISO DE ABERTURA N.º 20/2026 — Programa «Indústria 4.0 Regional» (Portugal 2030) [TEXTO FICTÍCIO]\n\nArtigo 1.º — Objeto\n1. O presente aviso destina-se a apoiar projetos de investimento produtivo e de modernização de empresas, contribuindo para a competitividade e a criação de emprego.\n\nArtigo 2.º — Dotação e taxa de apoio\n1. A dotação indicativa é de 12 milhões de euros.\n2. A taxa de apoio é de 40% das despesas elegíveis, com um limite de 250 mil euros por projeto.\n\nArtigo 3.º — Condições de elegibilidade dos beneficiários\nPodem candidatar-se as entidades que cumpram, cumulativamente, os seguintes requisitos:\na) Ter a situação contributiva regularizada perante a Autoridade Tributária e a Segurança Social;\nb) O CAE principal da empresa deve estar abrangido por uma das secções: H (transportes e armazenagem), I (alojamento e restauração), Q (saúde humana e apoio social);\nc) Não ser classificada como empresa em dificuldade, de acordo com o Regulamento (UE) n.º 651/2014;\nd) O projeto deve ter um investimento elegível mínimo de 75 mil euros;\ne) Enquadrar-se na definição de PME, com menos de 250 trabalhadores e volume de negócios anual até 50 milhões de euros ou balanço total anual até 43 milhões de euros;\nf) Estar sediada numa das regiões abrangidas pelo aviso, a saber: Alentejo, Açores;\n\nArtigo 4.º — Prazos e documentos\n1. As candidaturas decorrem de 8 de março a 13 de abril de 2026.\n2. A candidatura é instruída com a documentação comprovativa dos requisitos acima referidos.",
+  "company": {
+   "nome": "Ouro S.A.",
+   "regiao": "Açores",
+   "trabalhadores": 148,
+   "vn": 20.5,
+   "balanco": 11.0,
+   "contrib": "regularizada",
+   "cae": "H",
+   "dificuldade": "não",
+   "anos": null,
+   "invest": 75,
+   "postos": null,
+   "iniciado": null,
+   "export": null
+  },
+  "company_text": "Empresa: Ouro S.A.\nRegião da sede (NUTS II): Açores\nN.º de trabalhadores: 148\nVolume de negócios anual (M€): 20.5\nBalanço total anual (M€): 11.0\nSituação perante a AT e a Segurança Social: regularizada\nCAE principal (secção): H (transportes e armazenagem)\nEmpresa em dificuldade (Reg. UE 651/2014): não\nAnos de atividade: não indicado\nInvestimento previsto (k€): 75\nNovos postos de trabalho a criar: não indicado\nDespesas do projeto já iniciadas antes da candidatura: não indicado",
+  "criteria": [
+   {
+    "label": "a)",
+    "type": "contrib",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "b)",
+    "type": "cae",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "c)",
+    "type": "dificuldade",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "d)",
+    "type": "invest",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "e)",
+    "type": "pme",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "f)",
+    "type": "sede",
+    "mandatory": true,
+    "truth": "met"
+   }
+  ],
+  "truth_overall": "ELIGIBLE",
+  "target_overall": "ELIGIBLE"
+ },
+ {
+  "id": "case_21",
+  "split": "test",
+  "notice_text": "AVISO DE ABERTURA N.º 21/2026 — Programa «Norte Inovação Digital» (Portugal 2030) [TEXTO FICTÍCIO]\n\nArtigo 1.º — Objeto\n1. O presente aviso destina-se a apoiar projetos de investimento produtivo e de modernização de empresas, contribuindo para a competitividade e a criação de emprego.\n\nArtigo 2.º — Dotação e taxa de apoio\n1. A dotação indicativa é de 20 milhões de euros.\n2. A taxa de apoio é de 30% das despesas elegíveis, com um limite de 150 mil euros por projeto.\n\nArtigo 3.º — Condições de elegibilidade dos beneficiários\nPodem candidatar-se as entidades que cumpram, cumulativamente, os seguintes requisitos:\na) Criar pelo menos 3 postos de trabalho adicional(is) em resultado do projeto;\nb) O CAE principal da empresa deve estar abrangido por uma das secções: C (indústrias transformadoras), F (construção), J (informação e comunicação), M (atividades de consultoria, científicas e técnicas);\nc) Não se encontrar em situação de empresa em dificuldade, nos termos do Regulamento (UE) n.º 651/2014;\nd) Enquadrar-se na definição de PME, com menos de 250 trabalhadores e volume de negócios anual até 50 milhões de euros ou balanço total anual até 43 milhões de euros;\ne) Exercer atividade há um mínimo de 2 anos à data de submissão da candidatura;\nf) Estar sediada numa das regiões abrangidas pelo aviso, a saber: Algarve, Lisboa, Norte;\ng) Garantir que o projeto não foi iniciado antes da submissão da candidatura;\n\nArtigo 4.º — Prazos e documentos\n1. As candidaturas decorrem de 4 de março a 22 de abril de 2026.\n2. A candidatura é instruída com a documentação comprovativa dos requisitos acima referidos.",
+  "company": {
+   "nome": "Estrela Lda",
+   "regiao": "Norte",
+   "trabalhadores": 94,
+   "vn": 6.8,
+   "balanco": 11.6,
+   "contrib": null,
+   "cae": "J",
+   "dificuldade": "não",
+   "anos": 25,
+   "invest": null,
+   "postos": 5,
+   "iniciado": "não",
+   "export": null
+  },
+  "company_text": "Empresa: Estrela Lda\nRegião da sede (NUTS II): Norte\nN.º de trabalhadores: 94\nVolume de negócios anual (M€): 6.8\nBalanço total anual (M€): 11.6\nCAE principal (secção): J (informação e comunicação)\nEmpresa em dificuldade (Reg. UE 651/2014): não\nAnos de atividade: 25\nNovos postos de trabalho a criar: 5\nDespesas do projeto já iniciadas antes da candidatura: não\nPeso das exportações no volume de negócios (%): não indicado",
+  "criteria": [
+   {
+    "label": "a)",
+    "type": "postos",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "b)",
+    "type": "cae",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "c)",
+    "type": "dificuldade",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "d)",
+    "type": "pme",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "e)",
+    "type": "antiguidade",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "f)",
+    "type": "sede",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "g)",
+    "type": "iniciado",
+    "mandatory": true,
+    "truth": "met"
+   }
+  ],
+  "truth_overall": "ELIGIBLE",
+  "target_overall": "ELIGIBLE"
+ },
+ {
+  "id": "case_22",
+  "split": "test",
+  "notice_text": "AVISO DE ABERTURA N.º 22/2026 — Programa «Alentejo Produtivo» (Portugal 2030) [TEXTO FICTÍCIO]\n\nArtigo 1.º — Objeto\n1. O presente aviso destina-se a apoiar projetos de investimento produtivo e de modernização de empresas, contribuindo para a competitividade e a criação de emprego.\n\nArtigo 2.º — Dotação e taxa de apoio\n1. A dotação indicativa é de 8 milhões de euros.\n2. A taxa de apoio é de 50% das despesas elegíveis, com um limite de 250 mil euros por projeto.\n\nArtigo 3.º — Condições de elegibilidade dos beneficiários\nPodem candidatar-se as entidades que cumpram, cumulativamente, os seguintes requisitos:\na) Possuir a situação tributária e contributiva regularizada perante a AT e a Segurança Social;\nb) O CAE principal da empresa deve estar abrangido por uma das secções: C (indústrias transformadoras), H (transportes e armazenagem), J (informação e comunicação), Q (saúde humana e apoio social);\nc) Não se encontrar em situação de empresa em dificuldade, nos termos do Regulamento (UE) n.º 651/2014;\nd) Ter sede ou estabelecimento permanente numa das seguintes regiões NUTS II: Alentejo, Norte;\n\nArtigo 4.º — Critérios valorizados (não eliminatórios)\nSem prejuízo do disposto no artigo anterior, a falta destes requisitos não determina a exclusão da candidatura, sendo apenas valorizadas as empresas que cumpram:\ne) Empresas com exportações iguais ou superiores a 30% do volume de negócios;\n\nArtigo 5.º — Prazos e documentos\n1. As candidaturas decorrem de 6 de março a 27 de abril de 2026.\n2. A candidatura é instruída com a documentação comprovativa dos requisitos acima referidos.",
+  "company": {
+   "nome": "Nova Lda",
+   "regiao": "Norte",
+   "trabalhadores": null,
+   "vn": null,
+   "balanco": null,
+   "contrib": "regularizada",
+   "cae": null,
+   "dificuldade": null,
+   "anos": null,
+   "invest": null,
+   "postos": null,
+   "iniciado": null,
+   "export": 20
+  },
+  "company_text": "Empresa: Nova Lda\nRegião da sede (NUTS II): Norte\nN.º de trabalhadores: não indicado\nBalanço total anual (M€): não indicado\nSituação perante a AT e a Segurança Social: regularizada\nCAE principal (secção): não indicado\nEmpresa em dificuldade (Reg. UE 651/2014): não indicado\nAnos de atividade: não indicado\nInvestimento previsto (k€): não indicado\nDespesas do projeto já iniciadas antes da candidatura: não indicado\nPeso das exportações no volume de negócios (%): 20",
+  "criteria": [
+   {
+    "label": "a)",
+    "type": "contrib",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "b)",
+    "type": "cae",
+    "mandatory": true,
+    "truth": "needs_evidence"
+   },
+   {
+    "label": "c)",
+    "type": "dificuldade",
+    "mandatory": true,
+    "truth": "needs_evidence"
+   },
+   {
+    "label": "d)",
+    "type": "sede",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "e)",
+    "type": "export",
+    "mandatory": false,
+    "truth": "not_met"
+   }
+  ],
+  "truth_overall": "NEEDS_EVIDENCE",
+  "target_overall": "NEEDS_EVIDENCE"
+ },
+ {
+  "id": "case_23",
+  "split": "test",
+  "notice_text": "AVISO DE ABERTURA N.º 23/2026 — Programa «Centro Empresas 2030» (Portugal 2030) [TEXTO FICTÍCIO]\n\nArtigo 1.º — Objeto\n1. O presente aviso destina-se a apoiar projetos de investimento produtivo e de modernização de empresas, contribuindo para a competitividade e a criação de emprego.\n\nArtigo 2.º — Dotação e taxa de apoio\n1. A dotação indicativa é de 12 milhões de euros.\n2. A taxa de apoio é de 30% das despesas elegíveis, com um limite de 150 mil euros por projeto.\n\nArtigo 3.º — Condições de elegibilidade dos beneficiários\nPodem candidatar-se as entidades que cumpram, cumulativamente, os seguintes requisitos:\na) Ser micro, pequena ou média empresa, isto é, empregar menos de 250 pessoas e ter um volume de negócios anual não superior a 50 milhões de euros ou um balanço total anual não superior a 43 milhões de euros;\nb) Ter a situação contributiva regularizada perante a Autoridade Tributária e a Segurança Social;\nc) Comprometer-se a criar, no mínimo, 3 postos de trabalho líquido(s) até ao fim do projeto;\nd) O projeto deve ter um investimento elegível mínimo de 200 mil euros;\ne) Ter, à data da candidatura, pelo menos 1 ano de atividade;\nf) O CAE principal da empresa deve estar abrangido por uma das secções: F (construção), J (informação e comunicação);\ng) Não ter iniciado despesas do projeto antes da data da candidatura;\n\nArtigo 4.º — Critérios valorizados (não eliminatórios)\nSem prejuízo do disposto no artigo anterior, a falta destes requisitos não determina a exclusão da candidatura, sendo apenas valorizadas as empresas que cumpram:\nh) Empresas com exportações iguais ou superiores a 10% do volume de negócios;\n\nArtigo 5.º — Prazos e documentos\n1. As candidaturas decorrem de 7 de março a 26 de abril de 2026.\n2. A candidatura é instruída com a documentação comprovativa dos requisitos acima referidos.",
+  "company": {
+   "nome": "Alfa S.A.",
+   "regiao": null,
+   "trabalhadores": 145,
+   "vn": 6.5,
+   "balanco": 13.1,
+   "contrib": "regularizada",
+   "cae": "G",
+   "dificuldade": null,
+   "anos": null,
+   "invest": 195,
+   "postos": 3,
+   "iniciado": "não",
+   "export": null
+  },
+  "company_text": "Empresa: Alfa S.A.\nRegião da sede (NUTS II): não indicado\nN.º de trabalhadores: 145\nVolume de negócios anual (M€): 6.5\nBalanço total anual (M€): 13.1\nSituação perante a AT e a Segurança Social: regularizada\nCAE principal (secção): G (comércio por grosso e a retalho)\nEmpresa em dificuldade (Reg. UE 651/2014): não indicado\nAnos de atividade: não indicado\nInvestimento previsto (k€): 195\nNovos postos de trabalho a criar: 3\nDespesas do projeto já iniciadas antes da candidatura: não\nPeso das exportações no volume de negócios (%): não indicado",
+  "criteria": [
+   {
+    "label": "a)",
+    "type": "pme",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "b)",
+    "type": "contrib",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "c)",
+    "type": "postos",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "d)",
+    "type": "invest",
+    "mandatory": true,
+    "truth": "not_met"
+   },
+   {
+    "label": "e)",
+    "type": "antiguidade",
+    "mandatory": true,
+    "truth": "needs_evidence"
+   },
+   {
+    "label": "f)",
+    "type": "cae",
+    "mandatory": true,
+    "truth": "not_met"
+   },
+   {
+    "label": "g)",
+    "type": "iniciado",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "h)",
+    "type": "export",
+    "mandatory": false,
+    "truth": "needs_evidence"
+   }
+  ],
+  "truth_overall": "NOT_ELIGIBLE",
+  "target_overall": "NOT_ELIGIBLE"
+ },
+ {
+  "id": "case_24",
+  "split": "test",
+  "notice_text": "AVISO DE ABERTURA N.º 24/2026 — Programa «Indústria 4.0 Regional» (Portugal 2030) [TEXTO FICTÍCIO]\n\nArtigo 1.º — Objeto\n1. O presente aviso destina-se a apoiar projetos de investimento produtivo e de modernização de empresas, contribuindo para a competitividade e a criação de emprego.\n\nArtigo 2.º — Dotação e taxa de apoio\n1. A dotação indicativa é de 5 milhões de euros.\n2. A taxa de apoio é de 30% das despesas elegíveis, com um limite de 150 mil euros por projeto.\n\nArtigo 3.º — Condições de elegibilidade dos beneficiários\nPodem candidatar-se as entidades que cumpram, cumulativamente, os seguintes requisitos:\na) Não ter iniciado despesas do projeto antes da data da candidatura;\nb) O projeto deve ter um investimento elegível mínimo de 200 mil euros;\nc) Estar sediada numa das regiões abrangidas pelo aviso, a saber: Alentejo, Algarve, Madeira, Norte;\nd) Possuir a situação tributária e contributiva regularizada perante a AT e a Segurança Social;\ne) Não ser classificada como empresa em dificuldade, de acordo com o Regulamento (UE) n.º 651/2014;\nf) Enquadrar-se na definição de PME, com menos de 250 trabalhadores e volume de negócios anual até 50 milhões de euros ou balanço total anual até 43 milhões de euros;\ng) Ter como atividade principal (CAE Rev.3) uma das seguintes secções: C (indústrias transformadoras), F (construção), G (comércio por grosso e a retalho);\n\nArtigo 4.º — Prazos e documentos\n1. As candidaturas decorrem de 2 de março a 23 de abril de 2026.\n2. A candidatura é instruída com a documentação comprovativa dos requisitos acima referidos.",
+  "company": {
+   "nome": "Nova S.A.",
+   "regiao": "Algarve",
+   "trabalhadores": 212,
+   "vn": 73.4,
+   "balanco": 89.8,
+   "contrib": "regularizada",
+   "cae": "F",
+   "dificuldade": null,
+   "anos": null,
+   "invest": 200,
+   "postos": null,
+   "iniciado": "não",
+   "export": null
+  },
+  "company_text": "Empresa: Nova S.A.\nRegião da sede (NUTS II): Algarve\nN.º de trabalhadores: 212\nVolume de negócios anual (M€): 73.4\nBalanço total anual (M€): 89.8\nSituação perante a AT e a Segurança Social: regularizada\nCAE principal (secção): F (construção)\nEmpresa em dificuldade (Reg. UE 651/2014): não indicado\nInvestimento previsto (k€): 200\nDespesas do projeto já iniciadas antes da candidatura: não\nPeso das exportações no volume de negócios (%): não indicado",
+  "criteria": [
+   {
+    "label": "a)",
+    "type": "iniciado",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "b)",
+    "type": "invest",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "c)",
+    "type": "sede",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "d)",
+    "type": "contrib",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "e)",
+    "type": "dificuldade",
+    "mandatory": true,
+    "truth": "needs_evidence"
+   },
+   {
+    "label": "f)",
+    "type": "pme",
+    "mandatory": true,
+    "truth": "not_met"
+   },
+   {
+    "label": "g)",
+    "type": "cae",
+    "mandatory": true,
+    "truth": "met"
+   }
+  ],
+  "truth_overall": "NOT_ELIGIBLE",
+  "target_overall": "NOT_ELIGIBLE"
+ },
+ {
+  "id": "case_25",
+  "split": "dev",
+  "notice_text": "AVISO DE ABERTURA N.º 25/2026 — Programa «Centro Empresas 2030» (Portugal 2030) [TEXTO FICTÍCIO]\n\nArtigo 1.º — Objeto\n1. O presente aviso destina-se a apoiar projetos de investimento produtivo e de modernização de empresas, contribuindo para a competitividade e a criação de emprego.\n\nArtigo 2.º — Dotação e taxa de apoio\n1. A dotação indicativa é de 12 milhões de euros.\n2. A taxa de apoio é de 45% das despesas elegíveis, com um limite de 400 mil euros por projeto.\n\nArtigo 3.º — Condições de elegibilidade dos beneficiários\nPodem candidatar-se as entidades que cumpram, cumulativamente, os seguintes requisitos:\na) Apresentar um investimento total elegível igual ou superior a 100 mil euros;\nb) Ter a situação contributiva regularizada perante a Autoridade Tributária e a Segurança Social;\nc) O CAE principal da empresa deve estar abrangido por uma das secções: C (indústrias transformadoras), G (comércio por grosso e a retalho), I (alojamento e restauração), J (informação e comunicação);\nd) Estar sediada numa das regiões abrangidas pelo aviso, a saber: Algarve, Lisboa, Madeira;\ne) Exercer atividade há um mínimo de 2 anos à data de submissão da candidatura;\nf) Enquadrar-se na definição de PME, com menos de 250 trabalhadores e volume de negócios anual até 50 milhões de euros ou balanço total anual até 43 milhões de euros;\n\nArtigo 4.º — Critérios valorizados (não eliminatórios)\nSem prejuízo do disposto no artigo anterior, a falta destes requisitos não determina a exclusão da candidatura, sendo apenas valorizadas as empresas que cumpram:\ng) Empresas com exportações iguais ou superiores a 20% do volume de negócios;\n\nArtigo 5.º — Prazos e documentos\n1. As candidaturas decorrem de 6 de março a 28 de abril de 2026.\n2. A candidatura é instruída com a documentação comprovativa dos requisitos acima referidos.",
+  "company": {
+   "nome": "Estrela Unipessoal Lda",
+   "regiao": "Norte",
+   "trabalhadores": 249,
+   "vn": 50.0,
+   "balanco": 55.3,
+   "contrib": null,
+   "cae": "F",
+   "dificuldade": null,
+   "anos": 26,
+   "invest": 513,
+   "postos": null,
+   "iniciado": null,
+   "export": 43
+  },
+  "company_text": "Empresa: Estrela Unipessoal Lda\nRegião da sede (NUTS II): Norte\nN.º de trabalhadores: 249\nVolume de negócios anual (M€): 50.0\nBalanço total anual (M€): 55.3\nSituação perante a AT e a Segurança Social: não indicado\nCAE principal (secção): F (construção)\nAnos de atividade: 26\nInvestimento previsto (k€): 513\nNovos postos de trabalho a criar: não indicado\nPeso das exportações no volume de negócios (%): 43",
+  "criteria": [
+   {
+    "label": "a)",
+    "type": "invest",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "b)",
+    "type": "contrib",
+    "mandatory": true,
+    "truth": "needs_evidence"
+   },
+   {
+    "label": "c)",
+    "type": "cae",
+    "mandatory": true,
+    "truth": "not_met"
+   },
+   {
+    "label": "d)",
+    "type": "sede",
+    "mandatory": true,
+    "truth": "not_met"
+   },
+   {
+    "label": "e)",
+    "type": "antiguidade",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "f)",
+    "type": "pme",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "g)",
+    "type": "export",
+    "mandatory": false,
+    "truth": "met"
+   }
+  ],
+  "truth_overall": "NOT_ELIGIBLE",
+  "target_overall": "NOT_ELIGIBLE"
+ },
+ {
+  "id": "case_26",
+  "split": "test",
+  "notice_text": "AVISO DE ABERTURA N.º 26/2026 — Programa «Digitalizar PME» (Portugal 2030) [TEXTO FICTÍCIO]\n\nArtigo 1.º — Objeto\n1. O presente aviso destina-se a apoiar projetos de investimento produtivo e de modernização de empresas, contribuindo para a competitividade e a criação de emprego.\n\nArtigo 2.º — Dotação e taxa de apoio\n1. A dotação indicativa é de 8 milhões de euros.\n2. A taxa de apoio é de 40% das despesas elegíveis, com um limite de 250 mil euros por projeto.\n\nArtigo 3.º — Condições de elegibilidade dos beneficiários\nPodem candidatar-se as entidades que cumpram, cumulativamente, os seguintes requisitos:\na) Criar pelo menos 2 postos de trabalho adicional(is) em resultado do projeto;\nb) Ter como atividade principal (CAE Rev.3) uma das seguintes secções: C (indústrias transformadoras), G (comércio por grosso e a retalho), M (atividades de consultoria, científicas e técnicas);\nc) Não se encontrar em situação de empresa em dificuldade, nos termos do Regulamento (UE) n.º 651/2014;\nd) Ter, à data da candidatura, pelo menos 1 ano de atividade;\n\nArtigo 4.º — Critérios valorizados (não eliminatórios)\nSem prejuízo do disposto no artigo anterior, a falta destes requisitos não determina a exclusão da candidatura, sendo apenas valorizadas as empresas que cumpram:\ne) Empresas com exportações iguais ou superiores a 30% do volume de negócios;\n\nArtigo 5.º — Prazos e documentos\n1. As candidaturas decorrem de 5 de março a 20 de abril de 2026.\n2. A candidatura é instruída com a documentação comprovativa dos requisitos acima referidos.",
+  "company": {
+   "nome": "Pinhal Unipessoal Lda",
+   "regiao": null,
+   "trabalhadores": null,
+   "vn": null,
+   "balanco": null,
+   "contrib": null,
+   "cae": "M",
+   "dificuldade": "não",
+   "anos": 4,
+   "invest": null,
+   "postos": 6,
+   "iniciado": null,
+   "export": null
+  },
+  "company_text": "Empresa: Pinhal Unipessoal Lda\nRegião da sede (NUTS II): não indicado\nN.º de trabalhadores: não indicado\nVolume de negócios anual (M€): não indicado\nBalanço total anual (M€): não indicado\nSituação perante a AT e a Segurança Social: não indicado\nCAE principal (secção): M (atividades de consultoria, científicas e técnicas)\nEmpresa em dificuldade (Reg. UE 651/2014): não\nAnos de atividade: 4\nInvestimento previsto (k€): não indicado\nNovos postos de trabalho a criar: 6\nDespesas do projeto já iniciadas antes da candidatura: não indicado",
+  "criteria": [
+   {
+    "label": "a)",
+    "type": "postos",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "b)",
+    "type": "cae",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "c)",
+    "type": "dificuldade",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "d)",
+    "type": "antiguidade",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "e)",
+    "type": "export",
+    "mandatory": false,
+    "truth": "needs_evidence"
+   }
+  ],
+  "truth_overall": "ELIGIBLE",
+  "target_overall": "ELIGIBLE"
+ },
+ {
+  "id": "case_27",
+  "split": "test",
+  "notice_text": "AVISO DE ABERTURA N.º 27/2026 — Programa «Indústria 4.0 Regional» (Portugal 2030) [TEXTO FICTÍCIO]\n\nArtigo 1.º — Objeto\n1. O presente aviso destina-se a apoiar projetos de investimento produtivo e de modernização de empresas, contribuindo para a competitividade e a criação de emprego.\n\nArtigo 2.º — Dotação e taxa de apoio\n1. A dotação indicativa é de 20 milhões de euros.\n2. A taxa de apoio é de 50% das despesas elegíveis, com um limite de 400 mil euros por projeto.\n\nArtigo 3.º — Condições de elegibilidade dos beneficiários\nPodem candidatar-se as entidades que cumpram, cumulativamente, os seguintes requisitos:\na) Ter como atividade principal (CAE Rev.3) uma das seguintes secções: G (comércio por grosso e a retalho), I (alojamento e restauração), J (informação e comunicação);\nb) Criar pelo menos 2 postos de trabalho adicional(is) em resultado do projeto;\nc) Ser micro, pequena ou média empresa, isto é, empregar menos de 250 pessoas e ter um volume de negócios anual não superior a 50 milhões de euros ou um balanço total anual não superior a 43 milhões de euros;\nd) Apresentar um investimento total elegível igual ou superior a 200 mil euros;\ne) Ter a situação contributiva regularizada perante a Autoridade Tributária e a Segurança Social;\nf) Não ter iniciado despesas do projeto antes da data da candidatura;\ng) Ter, à data da candidatura, pelo menos 1 ano de atividade;\n\nArtigo 4.º — Critérios valorizados (não eliminatórios)\nSem prejuízo do disposto no artigo anterior, a falta destes requisitos não determina a exclusão da candidatura, sendo apenas valorizadas as empresas que cumpram:\nh) Empresas com exportações iguais ou superiores a 30% do volume de negócios;\n\nArtigo 5.º — Prazos e documentos\n1. As candidaturas decorrem de 6 de março a 20 de abril de 2026.\n2. A candidatura é instruída com a documentação comprovativa dos requisitos acima referidos.",
+  "company": {
+   "nome": "Quinta Lda",
+   "regiao": null,
+   "trabalhadores": 698,
+   "vn": 102.1,
+   "balanco": 25.7,
+   "contrib": "regularizada",
+   "cae": "G",
+   "dificuldade": null,
+   "anos": 1,
+   "invest": 280,
+   "postos": null,
+   "iniciado": "sim",
+   "export": 63
+  },
+  "company_text": "Empresa: Quinta Lda\nRegião da sede (NUTS II): não indicado\nN.º de trabalhadores: 698\nVolume de negócios anual (M€): 102.1\nBalanço total anual (M€): 25.7\nSituação perante a AT e a Segurança Social: regularizada\nCAE principal (secção): G (comércio por grosso e a retalho)\nEmpresa em dificuldade (Reg. UE 651/2014): não indicado\nAnos de atividade: 1\nInvestimento previsto (k€): 280\nNovos postos de trabalho a criar: não indicado\nDespesas do projeto já iniciadas antes da candidatura: sim\nPeso das exportações no volume de negócios (%): 63",
+  "criteria": [
+   {
+    "label": "a)",
+    "type": "cae",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "b)",
+    "type": "postos",
+    "mandatory": true,
+    "truth": "needs_evidence"
+   },
+   {
+    "label": "c)",
+    "type": "pme",
+    "mandatory": true,
+    "truth": "not_met"
+   },
+   {
+    "label": "d)",
+    "type": "invest",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "e)",
+    "type": "contrib",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "f)",
+    "type": "iniciado",
+    "mandatory": true,
+    "truth": "not_met"
+   },
+   {
+    "label": "g)",
+    "type": "antiguidade",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "h)",
+    "type": "export",
+    "mandatory": false,
+    "truth": "met"
+   }
+  ],
+  "truth_overall": "NOT_ELIGIBLE",
+  "target_overall": "NOT_ELIGIBLE"
+ },
+ {
+  "id": "case_28",
+  "split": "test",
+  "notice_text": "AVISO DE ABERTURA N.º 28/2026 — Programa «Emprego Qualificado» (Portugal 2030) [TEXTO FICTÍCIO]\n\nArtigo 1.º — Objeto\n1. O presente aviso destina-se a apoiar projetos de investimento produtivo e de modernização de empresas, contribuindo para a competitividade e a criação de emprego.\n\nArtigo 2.º — Dotação e taxa de apoio\n1. A dotação indicativa é de 20 milhões de euros.\n2. A taxa de apoio é de 45% das despesas elegíveis, com um limite de 400 mil euros por projeto.\n\nArtigo 3.º — Condições de elegibilidade dos beneficiários\nPodem candidatar-se as entidades que cumpram, cumulativamente, os seguintes requisitos:\na) Garantir que o projeto não foi iniciado antes da submissão da candidatura;\nb) O CAE principal da empresa deve estar abrangido por uma das secções: G (comércio por grosso e a retalho), H (transportes e armazenagem), I (alojamento e restauração);\nc) Ter a situação contributiva regularizada perante a Autoridade Tributária e a Segurança Social;\nd) Exercer atividade há um mínimo de 3 anos à data de submissão da candidatura;\ne) Enquadrar-se na definição de PME, com menos de 250 trabalhadores e volume de negócios anual até 50 milhões de euros ou balanço total anual até 43 milhões de euros;\nf) Não ser classificada como empresa em dificuldade, de acordo com o Regulamento (UE) n.º 651/2014;\n\nArtigo 4.º — Critérios valorizados (não eliminatórios)\nSem prejuízo do disposto no artigo anterior, a falta destes requisitos não determina a exclusão da candidatura, sendo apenas valorizadas as empresas que cumpram:\ng) Empresas com exportações iguais ou superiores a 30% do volume de negócios;\n\nArtigo 5.º — Prazos e documentos\n1. As candidaturas decorrem de 1 de março a 20 de abril de 2026.\n2. A candidatura é instruída com a documentação comprovativa dos requisitos acima referidos.",
+  "company": {
+   "nome": "Ouro Lda",
+   "regiao": null,
+   "trabalhadores": 122,
+   "vn": 17.5,
+   "balanco": 57.3,
+   "contrib": "regularizada",
+   "cae": "H",
+   "dificuldade": "sim",
+   "anos": null,
+   "invest": null,
+   "postos": null,
+   "iniciado": "não",
+   "export": 33
+  },
+  "company_text": "Empresa: Ouro Lda\nRegião da sede (NUTS II): não indicado\nN.º de trabalhadores: 122\nVolume de negócios anual (M€): 17.5\nBalanço total anual (M€): 57.3\nSituação perante a AT e a Segurança Social: regularizada\nCAE principal (secção): H (transportes e armazenagem)\nEmpresa em dificuldade (Reg. UE 651/2014): sim\nAnos de atividade: não indicado\nNovos postos de trabalho a criar: não indicado\nDespesas do projeto já iniciadas antes da candidatura: não\nPeso das exportações no volume de negócios (%): 33",
+  "criteria": [
+   {
+    "label": "a)",
+    "type": "iniciado",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "b)",
+    "type": "cae",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "c)",
+    "type": "contrib",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "d)",
+    "type": "antiguidade",
+    "mandatory": true,
+    "truth": "needs_evidence"
+   },
+   {
+    "label": "e)",
+    "type": "pme",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "f)",
+    "type": "dificuldade",
+    "mandatory": true,
+    "truth": "not_met"
+   },
+   {
+    "label": "g)",
+    "type": "export",
+    "mandatory": false,
+    "truth": "met"
+   }
+  ],
+  "truth_overall": "NOT_ELIGIBLE",
+  "target_overall": "NOT_ELIGIBLE"
+ },
+ {
+  "id": "case_29",
+  "split": "test",
+  "notice_text": "AVISO DE ABERTURA N.º 29/2026 — Programa «Digitalizar PME» (Portugal 2030) [TEXTO FICTÍCIO]\n\nArtigo 1.º — Objeto\n1. O presente aviso destina-se a apoiar projetos de investimento produtivo e de modernização de empresas, contribuindo para a competitividade e a criação de emprego.\n\nArtigo 2.º — Dotação e taxa de apoio\n1. A dotação indicativa é de 5 milhões de euros.\n2. A taxa de apoio é de 30% das despesas elegíveis, com um limite de 400 mil euros por projeto.\n\nArtigo 3.º — Condições de elegibilidade dos beneficiários\nPodem candidatar-se as entidades que cumpram, cumulativamente, os seguintes requisitos:\na) Ter, à data da candidatura, pelo menos 2 anos de atividade;\nb) Não se encontrar em situação de empresa em dificuldade, nos termos do Regulamento (UE) n.º 651/2014;\nc) Não ter iniciado despesas do projeto antes da data da candidatura;\nd) Comprometer-se a criar, no mínimo, 3 postos de trabalho líquido(s) até ao fim do projeto;\ne) Ter sede ou estabelecimento permanente numa das seguintes regiões NUTS II: Centro, Lisboa, Madeira, Norte;\n\nArtigo 4.º — Critérios valorizados (não eliminatórios)\nSem prejuízo do disposto no artigo anterior, a falta destes requisitos não determina a exclusão da candidatura, sendo apenas valorizadas as empresas que cumpram:\nf) Empresas com exportações iguais ou superiores a 30% do volume de negócios;\n\nArtigo 5.º — Prazos e documentos\n1. As candidaturas decorrem de 6 de março a 14 de abril de 2026.\n2. A candidatura é instruída com a documentação comprovativa dos requisitos acima referidos.",
+  "company": {
+   "nome": "Luz S.A.",
+   "regiao": null,
+   "trabalhadores": null,
+   "vn": null,
+   "balanco": null,
+   "contrib": null,
+   "cae": null,
+   "dificuldade": "não",
+   "anos": null,
+   "invest": null,
+   "postos": 9,
+   "iniciado": "não",
+   "export": 0
+  },
+  "company_text": "Empresa: Luz S.A.\nRegião da sede (NUTS II): não indicado\nN.º de trabalhadores: não indicado\nVolume de negócios anual (M€): não indicado\nEmpresa em dificuldade (Reg. UE 651/2014): não\nInvestimento previsto (k€): não indicado\nNovos postos de trabalho a criar: 9\nDespesas do projeto já iniciadas antes da candidatura: não\nPeso das exportações no volume de negócios (%): 0",
+  "criteria": [
+   {
+    "label": "a)",
+    "type": "antiguidade",
+    "mandatory": true,
+    "truth": "needs_evidence"
+   },
+   {
+    "label": "b)",
+    "type": "dificuldade",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "c)",
+    "type": "iniciado",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "d)",
+    "type": "postos",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "e)",
+    "type": "sede",
+    "mandatory": true,
+    "truth": "needs_evidence"
+   },
+   {
+    "label": "f)",
+    "type": "export",
+    "mandatory": false,
+    "truth": "not_met"
+   }
+  ],
+  "truth_overall": "NEEDS_EVIDENCE",
+  "target_overall": "NEEDS_EVIDENCE"
+ },
+ {
+  "id": "case_30",
+  "split": "dev",
+  "notice_text": "AVISO DE ABERTURA N.º 30/2026 — Programa «Indústria 4.0 Regional» (Portugal 2030) [TEXTO FICTÍCIO]\n\nArtigo 1.º — Objeto\n1. O presente aviso destina-se a apoiar projetos de investimento produtivo e de modernização de empresas, contribuindo para a competitividade e a criação de emprego.\n\nArtigo 2.º — Dotação e taxa de apoio\n1. A dotação indicativa é de 8 milhões de euros.\n2. A taxa de apoio é de 50% das despesas elegíveis, com um limite de 150 mil euros por projeto.\n\nArtigo 3.º — Condições de elegibilidade dos beneficiários\nPodem candidatar-se as entidades que cumpram, cumulativamente, os seguintes requisitos:\na) Não se encontrar em situação de empresa em dificuldade, nos termos do Regulamento (UE) n.º 651/2014;\nb) Criar pelo menos 3 postos de trabalho adicional(is) em resultado do projeto;\nc) Ter como atividade principal (CAE Rev.3) uma das seguintes secções: G (comércio por grosso e a retalho), M (atividades de consultoria, científicas e técnicas);\nd) Apresentar um investimento total elegível igual ou superior a 150 mil euros;\ne) Exercer atividade há um mínimo de 3 anos à data de submissão da candidatura;\n\nArtigo 4.º — Prazos e documentos\n1. As candidaturas decorrem de 4 de março a 24 de abril de 2026.\n2. A candidatura é instruída com a documentação comprovativa dos requisitos acima referidos.",
+  "company": {
+   "nome": "Íris Lda",
+   "regiao": null,
+   "trabalhadores": null,
+   "vn": null,
+   "balanco": null,
+   "contrib": null,
+   "cae": null,
+   "dificuldade": "não",
+   "anos": 8,
+   "invest": 102,
+   "postos": 10,
+   "iniciado": null,
+   "export": null
+  },
+  "company_text": "Empresa: Íris Lda\nVolume de negócios anual (M€): não indicado\nBalanço total anual (M€): não indicado\nSituação perante a AT e a Segurança Social: não indicado\nCAE principal (secção): não indicado\nEmpresa em dificuldade (Reg. UE 651/2014): não\nAnos de atividade: 8\nInvestimento previsto (k€): 102\nNovos postos de trabalho a criar: 10\nDespesas do projeto já iniciadas antes da candidatura: não indicado\nPeso das exportações no volume de negócios (%): não indicado",
+  "criteria": [
+   {
+    "label": "a)",
+    "type": "dificuldade",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "b)",
+    "type": "postos",
+    "mandatory": true,
+    "truth": "met"
+   },
+   {
+    "label": "c)",
+    "type": "cae",
+    "mandatory": true,
+    "truth": "needs_evidence"
+   },
+   {
+    "label": "d)",
+    "type": "invest",
+    "mandatory": true,
+    "truth": "not_met"
+   },
+   {
+    "label": "e)",
+    "type": "antiguidade",
+    "mandatory": true,
+    "truth": "met"
+   }
+  ],
+  "truth_overall": "NOT_ELIGIBLE",
+  "target_overall": "NOT_ELIGIBLE"
+ }
+]
