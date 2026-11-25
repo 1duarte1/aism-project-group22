@@ -1,0 +1,16 @@
+{
+ "backend": "openai",
+ "reps": 1,
+ "split": "test",
+ "n_cases": 2,
+ "configs": [
+  "baseline",
+  "multiagent",
+  "ablation_no_compiler"
+ ],
+ "noise": 0.0,
+ "flaky": 0.0,
+ "base_seed": 1000,
+ "model": "gpt-4o-mini",
+ "temperature": 0.0
+}
